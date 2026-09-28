@@ -1,0 +1,580 @@
+capital = 608
+
+oob = "GLA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GLA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GLA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Groja Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Groja Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kulturan Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Obican Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Vitezde Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Masinatrad Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GLA_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "GLA_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "GLA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Umena Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kucaj Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Vitezde Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Polj Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Slinja Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Filova Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Svemet Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Delo Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "GLA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Umena Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Kucaj Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Vitezde Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Polj Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Slinja Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Filova Class"
+			type = ship_hull_carrier_conversion_ca
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Svemet Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Delo Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub_2
+			}
+		}
+
+	}
+
+
+recruit_character = YEM_Steusz_Knja
+recruit_character = YEM_Aleg_Grmlja
+recruit_character = YEM_Kazimitrilos_Glat
+recruit_character = YEM_Gori_Sremlja
+recruit_character = YEM_Braj_Masinatrad
+recruit_character = YEM_Yuris_Laga
+recruit_character = YEM_Ilya_Kapijava
+recruit_character = YEM_Alek_Knjivo
+recruit_character = YEM_Radoslavelim_Vrlik
+recruit_character = YEM_Bran_Plodnos
+recruit_character = YEM_Borislav_Hlemir
+recruit_character = YEM_Slavko_Vitezde
+recruit_character = YEM_Vlav_Ljubarst
+recruit_character = YEM_Bragomas_Jezduh
+recruit_character = YEM_Mateusz_Glaver
+recruit_character = YEM_Matefanislav_Knjivo
+recruit_character = YEM_Ilya_Hravezaverad
+recruit_character = YEM_Kazimiroslav_Knja
+recruit_character = YEM_Vlavkolav_Pesecno
+recruit_character = YEM_Tomas_Prefekt
+recruit_character = YEM_Vlav_Groja
+recruit_character = YEM_Yuris_Poslje
+recruit_character = YEM_Bragomas_Naroj
+recruit_character = YEM_Bogdanko_Herodnikar
+recruit_character = YEM_Yuran_Imena
+recruit_character = YEM_Dusz_Slinja
+recruit_character = YEM_Yuris_Polja
+recruit_character = YEM_Yuris_Tradzbica
+recruit_character = YEM_Simir_Kulturad
+recruit_character = YEM_Kazimiroslav_Muzika
+recruit_character = YEM_Radeneksei_Postirom
+recruit_character = YEM_Matej_Jezduh
+recruit_character = YEM_Rado_Laga
+recruit_character = YEM_Juri_Filasina
+recruit_character = YEM_Miloslav_Pasina
+recruit_character = YEM_Bogdan_Bogina
+recruit_character = YEM_Lubos_Scen
+recruit_character = YEM_Andrej_Imena
+recruit_character = YEM_Kirosladek_Vitezde
+recruit_character = YEM_Goran_Imen
+recruit_character = YEM_Kirosladek_Krada
+recruit_character = YEM_Milav_Filo
+recruit_character = YEM_Simitan_Kucaj
+recruit_character = YEM_Kazimitar_Vitak
+recruit_character = YEM_Juris_Ljubarst
+recruit_character = YEM_Matefanislav_Ljubarst
+recruit_character = YEM_Niktoragomir_Glak
+recruit_character = YEM_Gori_Svemet
+recruit_character = YEM_Vladovan_Pesecno
+recruit_character = YEM_Vlavkolav_Vitak
+recruit_character = YEM_Lubomirosh_Doba
+recruit_character = YEM_Lubomas_Mosof
+recruit_character = YEM_Kazimitrilos_Bogina
+recruit_character = YEM_Dusz_Naroj
+recruit_character = YEM_Branis_Krada
+recruit_character = YEM_Vladimitarko_Oblik
+recruit_character = YEM_Lubos_Riba
+recruit_character = YEM_Dusan_Obica
+recruit_character = YEM_Kazimiroslav_Jezduh
+recruit_character = YEM_Bogdanko_Vazavino
+recruit_character = YEM_Steusz_Tradzbica
+recruit_character = YEM_Tomitris_Velodnika
+recruit_character = YEM_Mateusz_Carst
+recruit_character = YEM_Kazimitrilos_Tradzbica
+recruit_character = YEM_Lubomirosh_Krada
+recruit_character = YEM_Kazimitar_Krada
+recruit_character = YEM_Simir_Slika
+recruit_character = YEM_Juris_Doba
+recruit_character = YEM_Rado_Imen
+recruit_character = YEM_Vlavkolav_Puto
+recruit_character = YEM_Bogdanko_Pesecno
+recruit_character = YEM_Sergei_Tradzbica
+recruit_character = YEM_Yuran_Carst
+recruit_character = YEM_Rado_Groja
+recruit_character = YEM_Milav_Plasinjiga
+recruit_character = YEM_Mateusan_Kovac
+recruit_character = YEM_Yuran_Ljubarst
+recruit_character = YEM_Yuris_Doba
+recruit_character = YEM_Kiroslav_Mesec
+recruit_character = YEM_Bran_Kapijava
+recruit_character = YEM_Slavko_Plasinjiga
+recruit_character = YEM_Vladimitarko_Imena
+recruit_character = YEM_Lubomas_Imen
+recruit_character = YEM_Ivan_Smrt
+recruit_character = YEM_Vladimitarko_Delost
+recruit_character = YEM_Ivan_Vitezde
+recruit_character = YEM_Steusz_Kucan
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 70
+set_stability = 0.43
+set_war_support = 0.49
+
+add_ideas = {
+volunteer_only
+civilian_economy
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.10.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 47
+	fascism = 9
+	communism = 28
+	neutrality = 16
+}
+
+
+
+
+

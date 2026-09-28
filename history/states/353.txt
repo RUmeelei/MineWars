@@ -1,0 +1,38 @@
+
+state={
+	id=353
+	name="STATE_353"
+	manpower = 89043
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=7
+		steel=3
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		victory_points = { 5759 1}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		5751 5752 5753 5754 5755 5756 5757 5758 5759 5760 5761 
+	}
+	local_supplies=0.0 
+}

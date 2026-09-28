@@ -1,0 +1,1083 @@
+characters = {
+	TYG_Aselmad_Takwin={
+		name="Aselmad Takwin"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYG_Mimokran_Tifella={
+		name="Mimokran Tifella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Mimokran_Tifella
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Aselmarimokr_Agraw={
+		name="Aselmarimokr Agraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Aselmarimokr_Agraw
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Amokrane_Tazdayenzur={
+		name="Amokrane Tazdayenzur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Amokrane_Tazdayenzur
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Sifax_Tazrawlal={
+		name="Sifax Tazrawlal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Sifax_Tazrawlal
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Yuba_Imim={
+		name="Yuba Imim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Yuba_Imim
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Karen_Tidrart={
+		name="Karen Tidrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Karen_Tidrart
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Amaren_Tazegzi={
+		name="Amaren Tazegzi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Amaren_Tazegzi
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TYG_Tahar_Tighan={
+		name="Tahar Tighan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Tahar_Tighan
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TYG_Meziz_Tazemmi={
+		name="Meziz Tazemmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Meziz_Tazemmi
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TYG_Tafsut_Tislit={
+		name="Tafsut Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Tafsut_Tislit
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TYG_Mezian_Tamsirin={
+		name="Mezian Tamsirin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Mezian_Tamsirin
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TYG_Ziriq_Azrawenza={
+		name="Ziriq Azrawenza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Ziriq_Azrawenza
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TYG_Amad_Azegza={
+		name="Amad Azegza"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Amad_Azegza
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TYG_Tafsut_Nfous={
+		name="Tafsut Nfous"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Tafsut_Nfous
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TYG_Amar_Tighal={
+		name="Amar Tighal"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Amar_Tighal
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	TYG_Mimokran_Tawenzar={
+		name="Mimokran Tawenzar"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Mimokran_Tawenzar
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	TYG_Amaren_Taghbalt={
+		name="Amaren Taghbalt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Amaren_Taghbalt
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	TYG_Aselmar_Tazrast={
+		name="Aselmar Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Aselmar_Tazrast
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	TYG_Kariq_Tawinas={
+		name="Kariq Tawinas"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Kariq_Tawinas
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TYG_Iderfax_Tifella={
+		name="Iderfax Tifella"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Iderfax_Tifella
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	TYG_Mimoun_Tazenzaghbal={
+		name="Mimoun Tazenzaghbal"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYG_Aselmar_Awar={
+		name="Aselmar Awar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Aselmar_Awar
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Tahari_Tifella={
+		name="Tahari Tifella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Tahari_Tifella
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Zirimoun_Tifella={
+		name="Zirimoun Tifella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Zirimoun_Tifella
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Yannis_Imim={
+		name="Yannis Imim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Yannis_Imim
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Amoun_Amelt={
+		name="Amoun Amelt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Amoun_Amelt
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Ziriq_Tajmilt={
+		name="Ziriq Tajmilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Ziriq_Tajmilt
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Amokrane_Tislit={
+		name="Amokrane Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Amokrane_Tislit
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TYG_Mimokran_Taziren={
+		name="Mimokran Taziren"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Mimokran_Taziren
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TYG_Aziane_Tallaska={
+		name="Aziane Tallaska"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Aziane_Tallaska
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TYG_Aselmar_Azeggagherwa={
+		name="Aselmar Azeggagherwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Aselmar_Azeggagherwa
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TYG_Iderfannissi_Taddaremmi={
+		name="Iderfannissi Taddaremmi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Iderfannissi_Taddaremmi
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TYG_Azian_Taghbalt={
+		name="Azian Taghbalt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Azian_Taghbalt
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TYG_Mimoun_Tazrart={
+		name="Mimoun Tazrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Mimoun_Tazrart
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	TYG_Tari_Taziren={
+		name="Tari Taziren"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Tari_Taziren
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	TYG_Zirimoun_Azrawenza={
+		name="Zirimoun Azrawenza"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Zirimoun_Azrawenza
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	TYG_Amar_Awar={
+		name="Amar Awar"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Amar_Awar
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	TYG_Tahari_Agadin={
+		name="Tahari Agadin"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Tahari_Agadin
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	TYG_Sifax_Taziriri={
+		name="Sifax Taziriri"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Sifax_Taziriri
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	TYG_Saidi_Amdir={
+		name="Saidi Amdir"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Saidi_Amdir
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TYG_Tari_Targadinirt={
+		name="Tari Targadinirt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Tari_Targadinirt
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	TYG_Aselmad_Taziriri={
+		name="Aselmad Taziriri"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYG_Sifannissa_Tiwinirenzul={
+		name="Sifannissa Tiwinirenzul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Sifannissa_Tiwinirenzul
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Saidi_Tidrart={
+		name="Saidi Tidrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Saidi_Tidrart
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Iderfan_Imim={
+		name="Iderfan Imim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Iderfan_Imim
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Mezian_Tamsa={
+		name="Mezian Tamsa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Mezian_Tamsa
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Meziz_Tighren={
+		name="Meziz Tighren"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Meziz_Tighren
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Zirim_Tamazras={
+		name="Zirim Tamazras"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Zirim_Tamazras
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Azian_Amerwarwizi={
+		name="Azian Amerwarwizi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Azian_Amerwarwizi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TYG_Iderfannissi_Tazrart={
+		name="Iderfannissi Tazrart"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Iderfannissi_Tazrart
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TYG_Amaren_Adrawen={
+		name="Amaren Adrawen"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Amaren_Adrawen
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TYG_Zirimoun_Azegza={
+		name="Zirimoun Azegza"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Zirimoun_Azegza
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	TYG_Aselmarimokr_Tallaska={
+		name="Aselmarimokr Tallaska"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Aselmarimokr_Tallaska
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TYG_Iderfan_Thanemmi={
+		name="Iderfan Thanemmi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Iderfan_Thanemmi
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	TYG_Aselmar_Tamsirin={
+		name="Aselmar Tamsirin"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Aselmar_Tamsirin
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TYG_Aziz_Tiwinirenzul={
+		name="Aziz Tiwinirenzul"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Aziz_Tiwinirenzul
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TYG_Mokrane_Thanemmi={
+		name="Mokrane Thanemmi"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Mokrane_Thanemmi
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	TYG_Aziane_Tigharin={
+		name="Aziane Tigharin"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Aziane_Tigharin
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	TYG_Ziri_Taziren={
+		name="Ziri Taziren"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Ziri_Taziren
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	TYG_Mokrannis_Aghissou={
+		name="Mokrannis Aghissou"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Mokrannis_Aghissou
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	TYG_Aselmarimokr_Taziren={
+		name="Aselmarimokr Taziren"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Aselmarimokr_Taziren
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	TYG_Amad_Tissirt={
+		name="Amad Tissirt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Amad_Tissirt
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	TYG_Tahari_Imilal={
+		name="Tahari Imilal"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TYG_Azian_Tallaska={
+		name="Azian Tallaska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Azian_Tallaska
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Mezian_Tawenzar={
+		name="Mezian Tawenzar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Mezian_Tawenzar
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Amaren_Takhmi={
+		name="Amaren Takhmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Amaren_Takhmi
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Yannissiniss_Tajmilt={
+		name="Yannissiniss Tajmilt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Yannissiniss_Tajmilt
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	TYG_Yannissiniss_Imim={
+		name="Yannissiniss Imim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Yannissiniss_Imim
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	TYG_Mokrannis_Tidrart={
+		name="Mokrannis Tidrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SCO_Mokrannis_Tidrart
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	TYG_Amoun_Tazenzaghbal={
+		name="Amoun Tazenzaghbal"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Amoun_Tazenzaghbal
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TYG_Yane_Tamast={
+		name="Yane Tamast"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Yane_Tamast
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TYG_Aselmar_Tazawen={
+		name="Aselmar Tazawen"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Aselmar_Tazawen
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TYG_Amokrane_Amdir={
+		name="Amokrane Amdir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SCO_Amokrane_Amdir
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TYG_Amar_Tazem={
+		name="Amar Tazem"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Amar_Tazem
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TYG_Iderfane_Tazmella={
+		name="Iderfane Tazmella"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SCO_Iderfane_Tazmella
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TYG_Aselmad_Amdir={
+		name="Aselmad Amdir"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Aselmad_Amdir
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TYG_Ziri_Tawenzar={
+		name="Ziri Tawenzar"
+
+		advisor={
+			slot = air_chief
+			idea_token = SCO_Ziri_Tawenzar
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TYG_Aselmarimokr_Tazrast={
+		name="Aselmarimokr Tazrast"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Aselmarimokr_Tazrast
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TYG_Yane_Takilt={
+		name="Yane Takilt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Yane_Takilt
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TYG_Taren_Aghissou={
+		name="Taren Aghissou"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Taren_Aghissou
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	TYG_Mokran_Tissirt={
+		name="Mokran Tissirt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Mokran_Tissirt
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	TYG_Taren_Tawri={
+		name="Taren Tawri"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Taren_Tawri
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	TYG_Ziri_Asirt={
+		name="Ziri Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = SCO_Ziri_Asirt
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	TYG_Sifax_Tiwinirenzul={
+		name="Sifax Tiwinirenzul"
+
+		advisor={
+			slot = theorist
+			idea_token = SCO_Sifax_Tiwinirenzul
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TYG_Aselmar_Tazemmi={
+		name="Aselmar Tazemmi"
+
+		advisor={
+			slot = theorist
+			idea_token = SCO_Aselmar_Tazemmi
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TYG_Amaren_Tidrart={
+		name="Amaren Tidrart"
+
+		advisor={
+			slot = theorist
+			idea_token = SCO_Amaren_Tidrart
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

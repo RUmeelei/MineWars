@@ -1,0 +1,40 @@
+
+state={
+	id=1145
+	name="STATE_1145"
+	manpower = 326416
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=8
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			15448 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		15437 15438 15439 15440 15441 15442 15443 15444 15445 15446 15447 15448 15449 15450 15451 15452 15453 15454 15455 15456 15457 
+	}
+	local_supplies=0.0 
+}

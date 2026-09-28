@@ -1,0 +1,40 @@
+
+state={
+	id=1383
+	name="STATE_1383"
+	manpower = 0
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=14
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SWI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			17756 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		17756 17757 17758 17759 17760 17761 17762 17763 17764 17765 17766 17767 17768 
+	}
+	local_supplies=0.0 
+}

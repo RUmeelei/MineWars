@@ -1,0 +1,41 @@
+
+state={
+	id=728
+	name="STATE_728"
+	manpower = 248939
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=12
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11135 1}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			11140 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		11135 11136 11137 11138 11139 11140 11141 11142 11143 11144 11145 
+	}
+	local_supplies=0.0 
+}

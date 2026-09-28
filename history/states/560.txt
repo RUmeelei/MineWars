@@ -1,0 +1,45 @@
+
+state={
+	id=560
+	name="STATE_560"
+	manpower = 3436963
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8652 4}
+		victory_points = { 8653 14}
+		victory_points = { 8654 14}
+		victory_points = { 8657 4}
+		victory_points = { 8660 14}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 8
+			dockyard = 1
+			8657 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		8647 8648 8649 8650 8651 8652 8653 8654 8655 8656 8657 8658 8659 8660 8661 8662 8663 8664 8665 
+	}
+	local_supplies=0.0 
+}

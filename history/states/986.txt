@@ -1,0 +1,42 @@
+
+state={
+	id=986
+	name="STATE_986"
+	manpower = 379993
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13810 1}
+		victory_points = { 13816 1}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			13816 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		13810 13811 13812 13813 13814 13815 13816 13817 13818 13819 
+	}
+	local_supplies=0.0 
+}

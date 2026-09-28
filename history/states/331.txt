@@ -1,0 +1,45 @@
+
+state={
+	id=331
+	name="STATE_331"
+	manpower = 5682243
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5561 14}
+		victory_points = { 5563 14}
+		victory_points = { 5579 14}
+		victory_points = { 5580 14}
+		victory_points = { 5589 14}
+		
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 4
+			5579 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		5557 5558 5559 5560 5561 5562 5563 5564 5565 5566 5567 5568 5569 5570 5571 5572 5573 5574 5575 5576 5577 5578 5579 5580 5581 5582 5583 5584 5585 5586 5587 5588 5589 5590 5591 5592 5593 5594 5595 5596 5597 5598 5599 5600 5601 
+	}
+	local_supplies=0.0 
+}

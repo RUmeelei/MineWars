@@ -1,0 +1,38 @@
+
+state={
+	id=913
+	name="STATE_913"
+	manpower = 249540
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13026 2}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		13020 13021 13022 13023 13024 13025 13026 13027 13028 13029 13030 
+	}
+	local_supplies=0.0 
+}

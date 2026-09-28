@@ -1,0 +1,40 @@
+
+state={
+	id=793
+	name="STATE_793"
+	manpower = 586141
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11827 1}
+		victory_points = { 11828 2}
+		victory_points = { 11830 1}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		11824 11825 11826 11827 11828 11829 11830 11831 11832 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	MUR_Victor_Combro={
+		name="Victor Combro"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { noble_beurocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUR_Thien_Diame={
+		name="Thien Diame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Thien_Diame
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Andre_Comano={
+		name="Andre Comano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Andre_Comano
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Julierto_Oasimanierca={
+		name="Julierto Oasimanierca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Julierto_Oasimanierca
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Alberton_Scriercadatt={
+		name="Alberton Scriercadatt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Alberton_Scriercadatt
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Rictonarcomo_Stra={
+		name="Rictonarcomo Stra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Rictonarcomo_Stra
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Rictonarcomo_Arco={
+		name="Rictonarcomo Arco"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Rictonarcomo_Arco
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Stefan_Arco={
+		name="Stefan Arco"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Stefan_Arco
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MUR_Mardo_Oasimanierca={
+		name="Mardo Oasimanierca"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Mardo_Oasimanierca
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Thien_Castime={
+		name="Thien Castime"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Thien_Castime
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	MUR_Albertonario_Vocolo={
+		name="Albertonario Vocolo"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Albertonario_Vocolo
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Vicomonio_Pore={
+		name="Vicomonio Pore"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Vicomonio_Pore
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MUR_Vicomonio_Castalielta={
+		name="Vicomonio Castalielta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Vicomonio_Castalielta
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MUR_Frandre_Erbaziorto={
+		name="Frandre Erbaziorto"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Frandre_Erbaziorto
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MUR_Ramon_Castino={
+		name="Ramon Castino"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Ramon_Castino
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MUR_Victor_Armattima={
+		name="Victor Armattima"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Victor_Armattima
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	MUR_Thien_Odizio={
+		name="Thien Odizio"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Thien_Odizio
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	MUR_Leon_Ghiercolore={
+		name="Leon Ghiercolore"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Leon_Ghiercolore
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MUR_Frandre_Visio={
+		name="Frandre Visio"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Frandre_Visio
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MUR_Alexancescol_Sole={
+		name="Alexancescol Sole"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Alexancescol_Sole
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	MUR_Antor_Oasimanierca={
+		name="Antor Oasimanierca"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Antor_Oasimanierca
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MUR_Giacomo_Chia={
+		name="Giacomo Chia"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUR_Marcomo_Soggiama={
+		name="Marcomo Soggiama"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Marcomo_Soggiama
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Robertor_Sille={
+		name="Robertor Sille"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Robertor_Sille
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Roberry_Fato={
+		name="Roberry Fato"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Roberry_Fato
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Antor_Stra={
+		name="Antor Stra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Antor_Stra
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Pedro_Scriercadatt={
+		name="Pedro Scriercadatt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Pedro_Scriercadatt
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Fran_Lina={
+		name="Fran Lina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Fran_Lina
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Vico_Fiuste={
+		name="Vico Fiuste"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Vico_Fiuste
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUR_Anto_Combro={
+		name="Anto Combro"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Anto_Combro
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MUR_Jeancescolos_Foriave={
+		name="Jeancescolos Foriave"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Jeancescolos_Foriave
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MUR_Vicardo_Demonfine={
+		name="Vicardo Demonfine"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Vicardo_Demonfine
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	MUR_Pablose_Sileanza={
+		name="Pablose Sileanza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Pablose_Sileanza
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MUR_Marcolas_Caleando={
+		name="Marcolas Caleando"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Marcolas_Caleando
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MUR_Pedro_Impame={
+		name="Pedro Impame"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Pedro_Impame
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MUR_Anto_Nevene={
+		name="Anto Nevene"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Anto_Nevene
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MUR_Antor_Diaveriaco={
+		name="Antor Diaveriaco"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Antor_Diaveriaco
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MUR_Jeancescolos_Fumorto={
+		name="Jeancescolos Fumorto"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Jeancescolos_Fumorto
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MUR_Matteo_Ricolaggio={
+		name="Matteo Ricolaggio"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Matteo_Ricolaggio
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	MUR_Vico_Sogno={
+		name="Vico Sogno"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Vico_Sogno
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MUR_Stefancesco_Stra={
+		name="Stefancesco Stra"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Stefancesco_Stra
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MUR_Julien_Tortorrace={
+		name="Julien Tortorrace"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Julien_Tortorrace
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MUR_Vicomonio_Mortilliere={
+		name="Vicomonio Mortilliere"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUR_Mardo_Sileanza={
+		name="Mardo Sileanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Mardo_Sileanza
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Vicomonio_Comano={
+		name="Vicomonio Comano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Vicomonio_Comano
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Nicolo_Spita={
+		name="Nicolo Spita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Nicolo_Spita
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Marco_Impame={
+		name="Marco Impame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Marco_Impame
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Thiertor_Spione={
+		name="Thiertor Spione"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Thiertor_Spione
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Pedre_Oasimanierca={
+		name="Pedre Oasimanierca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Pedre_Oasimanierca
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	MUR_Paolose_Diampe={
+		name="Paolose Diampe"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Paolose_Diampe
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MUR_Giaco_Lina={
+		name="Giaco Lina"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Giaco_Lina
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUR_Alexancescol_Mortilliere={
+		name="Alexancescol Mortilliere"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Alexancescol_Mortilliere
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MUR_Jeancescolos_Vocolo={
+		name="Jeancescolos Vocolo"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Jeancescolos_Vocolo
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MUR_Robertonio_Acciame={
+		name="Robertonio Acciame"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Robertonio_Acciame
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MUR_Vicardo_Rustino={
+		name="Vicardo Rustino"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Vicardo_Rustino
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Jeancescolos_Abba={
+		name="Jeancescolos Abba"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Jeancescolos_Abba
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MUR_Carlose_Anitta={
+		name="Carlose Anitta"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Carlose_Anitta
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MUR_Carlo_Castime={
+		name="Carlo Castime"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Carlo_Castime
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	MUR_Paolose_Colo={
+		name="Paolose Colo"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Paolose_Colo
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	MUR_Andre_Odizio={
+		name="Andre Odizio"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Andre_Odizio
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MUR_Mattefancesc_Arco={
+		name="Mattefancesc Arco"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Mattefancesc_Arco
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	MUR_Vicomonio_Angua={
+		name="Vicomonio Angua"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Vicomonio_Angua
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	MUR_Albertonario_Scubo={
+		name="Albertonario Scubo"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Albertonario_Scubo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	MUR_Alexan_Cavola={
+		name="Alexan Cavola"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUR_Marcomo_Odiorione={
+		name="Marcomo Odiorione"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Marcomo_Odiorione
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Pablose_Navene={
+		name="Pablose Navene"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Pablose_Navene
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Mattefancesc_Popo={
+		name="Mattefancesc Popo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Mattefancesc_Popo
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	MUR_Alexandre_Comano={
+		name="Alexandre Comano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Alexandre_Comano
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Julierto_Pore={
+		name="Julierto Pore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Julierto_Pore
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Alberton_Albero={
+		name="Alberton Albero"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_Alberton_Albero
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	MUR_Stefancesco_Muro={
+		name="Stefancesco Muro"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Stefancesco_Muro
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MUR_Carlose_Fuoco={
+		name="Carlose Fuoco"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Carlose_Fuoco
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MUR_Carlose_Nevene={
+		name="Carlose Nevene"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Carlose_Nevene
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MUR_Felipe_Comano={
+		name="Felipe Comano"
+
+		advisor={
+			slot = army_chief
+			idea_token = AUS_Felipe_Comano
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Pedre_Neve={
+		name="Pedre Neve"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Pedre_Neve
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MUR_Enzo_Giortezionfo={
+		name="Enzo Giortezionfo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AUS_Enzo_Giortezionfo
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Alexan_Sanyone={
+		name="Alexan Sanyone"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Alexan_Sanyone
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MUR_Julien_Incudo={
+		name="Julien Incudo"
+
+		advisor={
+			slot = air_chief
+			idea_token = AUS_Julien_Incudo
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MUR_Carlo_Nevene={
+		name="Carlo Nevene"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Carlo_Nevene
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	MUR_Robertonio_Menza={
+		name="Robertonio Menza"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Robertonio_Menza
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MUR_Giacomo_Spita={
+		name="Giacomo Spita"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Giacomo_Spita
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MUR_Vicomonio_Odizio={
+		name="Vicomonio Odizio"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Vicomonio_Odizio
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MUR_Jose_Neve={
+		name="Jose Neve"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Jose_Neve
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MUR_Fran_Memico={
+		name="Fran Memico"
+
+		advisor={
+			slot = high_command
+			idea_token = AUS_Fran_Memico
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	MUR_Mardo_Terina={
+		name="Mardo Terina"
+
+		advisor={
+			slot = theorist
+			idea_token = AUS_Mardo_Terina
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MUR_Jeancescolos_Castillo={
+		name="Jeancescolos Castillo"
+
+		advisor={
+			slot = theorist
+			idea_token = AUS_Jeancescolos_Castillo
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MUR_Antor_Incudo={
+		name="Antor Incudo"
+
+		advisor={
+			slot = theorist
+			idea_token = AUS_Antor_Incudo
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

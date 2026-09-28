@@ -1,0 +1,69 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Suir Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Suir Fleet"
+			location = 7347
+			
+						ship = { name = "Athas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "Aislinn Class" } }	}
+			ship = { name = "Muim" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "Aislinn Class" } }	}
+			ship = { name = "Cealas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "Aislinn Class" } }	}
+			ship = { name = "Cealas 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Fuath" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Beinn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Muim 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Athainn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Banwa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Teine" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Crioradanamh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Ceim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Lailinas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Fuath 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Fuairearras" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Amha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Luach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Dintarra" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Main" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Sean" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Aislinn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Aislinn 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Amha 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Crioradanamh 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Fonn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Fonn 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Main 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Talas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Torg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Beinn 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Bannta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Boill" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Dintarra 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Buasamh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Aonas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Baith" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Sean 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Buasamh 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Feana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Baith 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Teine 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+			ship = { name = "Breim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Fonn Class" } }	}
+			ship = { name = "Bannta 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG version_name = "Sabhas Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

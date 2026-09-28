@@ -1,0 +1,41 @@
+
+state={
+	id=1359
+	name="STATE_1359"
+	manpower = 2388824
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=9
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17525 6}
+		victory_points = { 17534 6}
+		victory_points = { 17552 6}
+		victory_points = { 17559 6}
+		
+		owner = SWI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		17522 17523 17524 17525 17526 17527 17528 17529 17530 17531 17532 17533 17534 17535 17536 17537 17538 17539 17540 17541 17542 17543 17544 17545 17546 17547 17548 17549 17550 17551 17552 17553 17554 17555 17556 17557 17558 17559 17560 17561 17562 17563 
+	}
+	local_supplies=0.0 
+}

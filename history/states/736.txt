@@ -1,0 +1,41 @@
+
+state={
+	id=736
+	name="STATE_736"
+	manpower = 503954
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=10
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11205 1}
+		victory_points = { 11209 1}
+		victory_points = { 11210 1}
+		victory_points = { 11213 1}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		11205 11206 11207 11208 11209 11210 11211 11212 11213 11214 11215 
+	}
+	local_supplies=0.0 
+}

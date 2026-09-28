@@ -1,0 +1,38 @@
+
+state={
+	id=896
+	name="STATE_896"
+	manpower = 609091
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12863 6}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		12862 12863 12864 12865 12866 12867 12868 12869 
+	}
+	local_supplies=0.0 
+}

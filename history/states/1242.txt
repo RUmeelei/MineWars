@@ -1,0 +1,40 @@
+
+state={
+	id=1242
+	name="STATE_1242"
+	manpower = 73057
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=11
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16272 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		16269 16270 16271 16272 16273 16274 16275 16276 16277 16278 
+	}
+	local_supplies=0.0 
+}

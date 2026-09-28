@@ -1,0 +1,38 @@
+
+state={
+	id=990
+	name="STATE_990"
+	manpower = 336982
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13872 1}
+		
+		owner = SWI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		13870 13871 13872 13873 13874 13875 13876 13877 13878 13879 13880 
+	}
+	local_supplies=0.0 
+}

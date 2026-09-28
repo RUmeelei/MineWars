@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tighren Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Tighren Fleet"
+			location = 7233
+			
+						ship = { name = "Tazi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Tawri" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Agadin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Tazrou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Tazrou 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Amdir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Imim" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Agadin 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Adrar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+			ship = { name = "Tislit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SCO version_name = "Tamsirt Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

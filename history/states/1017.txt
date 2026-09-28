@@ -1,0 +1,42 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+	manpower = 662577
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14055 1}
+		victory_points = { 14090 1}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14092 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		14055 14056 14057 14058 14059 14060 14061 14062 14063 14064 14065 14066 14067 14068 14069 14070 14071 14072 14073 14074 14075 14076 14077 14078 14079 14080 14081 14082 14083 14084 14085 14086 14087 14088 14089 14090 14091 14092 14093 14094 14095 14096 14097 14098 14099 14100 14101 14102 14103 14104 14105 14106 
+	}
+	local_supplies=0.0 
+}

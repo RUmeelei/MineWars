@@ -1,0 +1,37 @@
+
+state={
+	id=762
+	name="STATE_762"
+	manpower = 221369
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		11547 11548 11549 11550 11551 
+	}
+	local_supplies=0.0 
+}

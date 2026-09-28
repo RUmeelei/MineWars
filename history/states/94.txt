@@ -1,0 +1,40 @@
+
+state={
+	id=94
+	name="STATE_94"
+	manpower = 1653282
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2133 9}
+		victory_points = { 2141 4}
+		victory_points = { 2143 4}
+		
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		2132 2133 2134 2135 2136 2137 2138 2139 2140 2141 2142 2143 
+	}
+	local_supplies=0.0 
+}

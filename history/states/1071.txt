@@ -1,0 +1,39 @@
+
+state={
+	id=1071
+	name="STATE_1071"
+	manpower = 287678
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14833 1}
+		victory_points = { 14834 1}
+		
+		owner = SWI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		14832 14833 14834 14835 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,45 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Muzika Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Muzika Fleet"
+			location = 12629
+			
+						ship = { name = "Krada" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Masinatrad" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Kravetarst" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Poslje Class" } }	}
+			ship = { name = "Kisa" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FIN version_name = "Riba Class" } }	}
+			ship = { name = "Delostina" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FIN version_name = "Riba Class" } }	}
+			ship = { name = "Krada 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Poslje Class" } }	}
+			ship = { name = "Leka" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Poslje Class" } }	}
+			ship = { name = "Poslje" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Slika" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FIN version_name = "Riba Class" } }	}
+			ship = { name = "Polja" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Poslje Class" } }	}
+			ship = { name = "Pisina" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FIN version_name = "Glaver Class" } }	}
+			ship = { name = "Kovo" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Poslje 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FIN version_name = "Glaver Class" } }	}
+			ship = { name = "Leka 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FIN version_name = "Riba Class" } }	}
+			ship = { name = "Herodnikar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Poslje Class" } }	}
+			ship = { name = "Kovo 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Slika 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FIN version_name = "Dobarodar Class" } }	}
+			ship = { name = "Kucaj" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FIN version_name = "Glaver Class" } }	}
+			ship = { name = "Filasinagan" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FIN version_name = "Glaver Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

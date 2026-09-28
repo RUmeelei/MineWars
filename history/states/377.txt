@@ -1,0 +1,45 @@
+
+state={
+	id=377
+	name="STATE_377"
+	manpower = 1124923
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=46
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6071 1}
+		victory_points = { 6085 1}
+		victory_points = { 6090 1}
+		victory_points = { 6098 1}
+		victory_points = { 6115 1}
+		
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			6085 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6065 6066 6067 6068 6069 6070 6071 6072 6073 6074 6075 6076 6077 6078 6079 6080 6081 6082 6083 6084 6085 6086 6087 6088 6089 6090 6091 6092 6093 6094 6095 6096 6097 6098 6099 6100 6101 6102 6103 6104 6105 6106 6107 6108 6109 6110 6111 6112 6113 6114 6115 6116 
+	}
+	local_supplies=0.0 
+}

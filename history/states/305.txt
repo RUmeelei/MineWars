@@ -1,0 +1,45 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower = 3687248
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=23
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5355 11}
+		victory_points = { 5356 11}
+		victory_points = { 5361 11}
+		victory_points = { 5363 11}
+		victory_points = { 5364 11}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 3
+			5363 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		5354 5355 5356 5357 5358 5359 5360 5361 5362 5363 5364 5365 5366 5367 5368 5369 5370 5371 5372 5373 5374 5375 
+	}
+	local_supplies=0.0 
+}

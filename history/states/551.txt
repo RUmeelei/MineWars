@@ -1,0 +1,39 @@
+
+state={
+	id=551
+	name="STATE_551"
+	manpower = 289642
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8532 1}
+		victory_points = { 8535 1}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		8532 8533 8534 8535 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=609
+	name="STATE_609"
+	manpower = 1556439
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9683 4}
+		victory_points = { 9684 8}
+		victory_points = { 9685 4}
+		victory_points = { 9690 4}
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+			9690 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		9681 9682 9683 9684 9685 9686 9687 9688 9689 9690 
+	}
+	local_supplies=0.0 
+}

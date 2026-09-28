@@ -1,0 +1,37 @@
+
+state={
+	id=958
+	name="STATE_958"
+	manpower = 375609
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		13504 13505 13506 13507 13508 13509 
+	}
+	local_supplies=0.0 
+}

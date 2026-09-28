@@ -1,0 +1,39 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Glak Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Glak Fleet"
+			location = 12612
+			
+						ship = { name = "Vazavino" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Post" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YEM version_name = "Kucaj Class" } }	}
+			ship = { name = "Masinatrad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Post 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YEM version_name = "Kucaj Class" } }	}
+			ship = { name = "Plasinjiga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Filova" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Kravetarst" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Puto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Naroj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Polj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Masinatrad 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = YEM version_name = "Kucaj Class" } }	}
+			ship = { name = "Slinja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+			ship = { name = "Sremlja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YEM version_name = "Umena Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

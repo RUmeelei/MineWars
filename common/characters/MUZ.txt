@@ -1,0 +1,1083 @@
+characters = {
+	MUZ_Kazimiroslav_Kucaj={
+		name="Kazimiroslav Kucaj"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUZ_Niktoragomir_Mirodar={
+		name="Niktoragomir Mirodar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Niktoragomir_Mirodar
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MUZ_Tomas_Teatak={
+		name="Tomas Teatak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Tomas_Teatak
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Juril_Grmlja={
+		name="Juril Grmlja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Juril_Grmlja
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Alek_Kravetarst={
+		name="Alek Kravetarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Alek_Kravetarst
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Simitan_Postirom={
+		name="Simitan Postirom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Simitan_Postirom
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Niktoragomir_Naroj={
+		name="Niktoragomir Naroj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Niktoragomir_Naroj
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Rado_Sremlja={
+		name="Rado Sremlja"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Rado_Sremlja
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUZ_Mirosladosla_Mesec={
+		name="Mirosladosla Mesec"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Mirosladosla_Mesec
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MUZ_Marko_Voda={
+		name="Marko Voda"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Marko_Voda
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MUZ_Vladimitarko_Post={
+		name="Vladimitarko Post"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Vladimitarko_Post
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MUZ_Vlavkolav_Delo={
+		name="Vlavkolav Delo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Vlavkolav_Delo
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	MUZ_Kazimiroslav_Groja={
+		name="Kazimiroslav Groja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Kazimiroslav_Groja
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MUZ_Rado_Gvor={
+		name="Rado Gvor"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Rado_Gvor
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MUZ_Maros_Alak={
+		name="Maros Alak"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Maros_Alak
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	MUZ_Tomitris_Vitak={
+		name="Tomitris Vitak"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Tomitris_Vitak
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	MUZ_Bragomas_Stor={
+		name="Bragomas Stor"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Bragomas_Stor
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MUZ_Slavko_Filo={
+		name="Slavko Filo"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Slavko_Filo
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	MUZ_Simeon_Prefekt={
+		name="Simeon Prefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Simeon_Prefekt
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	MUZ_Kazimitrilos_Grmlja={
+		name="Kazimitrilos Grmlja"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Kazimitrilos_Grmlja
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	MUZ_Bragomas_Pisac={
+		name="Bragomas Pisac"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Bragomas_Pisac
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MUZ_Kiroslav_Grmlja={
+		name="Kiroslav Grmlja"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUZ_Sergei_Sremlja={
+		name="Sergei Sremlja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Sergei_Sremlja
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Zori_Pisac={
+		name="Zori Pisac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Zori_Pisac
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MUZ_Viko_Kucan={
+		name="Viko Kucan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Viko_Kucan
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Matefanislav_Obica={
+		name="Matefanislav Obica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Matefanislav_Obica
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Miloslav_Glaver={
+		name="Miloslav Glaver"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Miloslav_Glaver
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Braj_Gvor={
+		name="Braj Gvor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Braj_Gvor
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Bogdanko_Pisina={
+		name="Bogdanko Pisina"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Bogdanko_Pisina
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	MUZ_Braj_Zvetlo={
+		name="Braj Zvetlo"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Braj_Zvetlo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MUZ_Steusz_Slinja={
+		name="Steusz Slinja"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Steusz_Slinja
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MUZ_Nikitaroslav_Kulturad={
+		name="Nikitaroslav Kulturad"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Nikitaroslav_Kulturad
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MUZ_Mateusz_Obica={
+		name="Mateusz Obica"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Mateusz_Obica
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MUZ_Jarko_Alak={
+		name="Jarko Alak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Jarko_Alak
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	MUZ_Andrej_Masinatrad={
+		name="Andrej Masinatrad"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Andrej_Masinatrad
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MUZ_Mateusz_Dobarodar={
+		name="Mateusz Dobarodar"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Mateusz_Dobarodar
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	MUZ_Zdek_Krada={
+		name="Zdek Krada"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Zdek_Krada
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MUZ_Markoladekse_Kucaj={
+		name="Markoladekse Kucaj"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Markoladekse_Kucaj
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MUZ_Zdek_Laga={
+		name="Zdek Laga"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Zdek_Laga
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	MUZ_Bogdan_Plodnos={
+		name="Bogdan Plodnos"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Bogdan_Plodnos
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MUZ_Dusz_Filova={
+		name="Dusz Filova"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Dusz_Filova
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	MUZ_Juris_Kovo={
+		name="Juris Kovo"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Juris_Kovo
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	MUZ_Vladimitarko_Laga={
+		name="Vladimitarko Laga"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUZ_Kirosladek_Masinatrad={
+		name="Kirosladek Masinatrad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Kirosladek_Masinatrad
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MUZ_Bran_Kucan={
+		name="Bran Kucan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Bran_Kucan
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Kazimitrilos_Scen={
+		name="Kazimitrilos Scen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Kazimitrilos_Scen
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Sergei_Korenika={
+		name="Sergei Korenika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Sergei_Korenika
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Maros_Imen={
+		name="Maros Imen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Maros_Imen
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MUZ_Mateusz_Teatak={
+		name="Mateusz Teatak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Mateusz_Teatak
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Radeneksei_Mirodar={
+		name="Radeneksei Mirodar"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Radeneksei_Mirodar
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MUZ_Juran_Kovac={
+		name="Juran Kovac"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Juran_Kovac
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MUZ_Borislav_Gvor={
+		name="Borislav Gvor"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Borislav_Gvor
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	MUZ_Miloslav_Kovac={
+		name="Miloslav Kovac"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Miloslav_Kovac
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	MUZ_Braj_Slika={
+		name="Braj Slika"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Braj_Slika
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MUZ_Zdek_Jezduh={
+		name="Zdek Jezduh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Zdek_Jezduh
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	MUZ_Steusz_Laga={
+		name="Steusz Laga"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Steusz_Laga
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	MUZ_Zori_Tezero={
+		name="Zori Tezero"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Zori_Tezero
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MUZ_Zdek_Filo={
+		name="Zdek Filo"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Zdek_Filo
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	MUZ_Kazimir_Grmlja={
+		name="Kazimir Grmlja"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Kazimir_Grmlja
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	MUZ_Yuran_Voda={
+		name="Yuran Voda"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Yuran_Voda
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	MUZ_Lubos_Scen={
+		name="Lubos Scen"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Lubos_Scen
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MUZ_Goran_Dobarodar={
+		name="Goran Dobarodar"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Goran_Dobarodar
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	MUZ_Simitan_Dobarodar={
+		name="Simitan Dobarodar"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Simitan_Dobarodar
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MUZ_Lubomirosh_Kravetarst={
+		name="Lubomirosh Kravetarst"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MUZ_Kazimitrilos_Glat={
+		name="Kazimitrilos Glat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Kazimitrilos_Glat
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	MUZ_Matefanislav_Filo={
+		name="Matefanislav Filo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Matefanislav_Filo
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Bragomas_Polj={
+		name="Bragomas Polj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Bragomas_Polj
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Kiroslav_Ljubarst={
+		name="Kiroslav Ljubarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Kiroslav_Ljubarst
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Juris_Pesnika={
+		name="Juris Pesnika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Juris_Pesnika
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	MUZ_Tomitris_Mudar={
+		name="Tomitris Mudar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FIN_Tomitris_Mudar
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	MUZ_Juri_Ljubav={
+		name="Juri Ljubav"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Juri_Ljubav
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MUZ_Steusz_Polj={
+		name="Steusz Polj"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Steusz_Polj
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MUZ_Kazimitar_Imena={
+		name="Kazimitar Imena"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Kazimitar_Imena
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MUZ_Nikitaroslav_Obican={
+		name="Nikitaroslav Obican"
+
+		advisor={
+			slot = army_chief
+			idea_token = FIN_Nikitaroslav_Obican
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	MUZ_Milav_Slikar={
+		name="Milav Slikar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Milav_Slikar
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MUZ_Juran_Korenika={
+		name="Juran Korenika"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FIN_Juran_Korenika
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	MUZ_Vladimitarko_Polj={
+		name="Vladimitarko Polj"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Vladimitarko_Polj
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	MUZ_Lubomas_Vazavino={
+		name="Lubomas Vazavino"
+
+		advisor={
+			slot = air_chief
+			idea_token = FIN_Lubomas_Vazavino
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	MUZ_Vladimitarko_Knjiganstra={
+		name="Vladimitarko Knjiganstra"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Vladimitarko_Knjiganstra
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	MUZ_Ivan_Vrlik={
+		name="Ivan Vrlik"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Ivan_Vrlik
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	MUZ_Radoslavelim_Glak={
+		name="Radoslavelim Glak"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Radoslavelim_Glak
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	MUZ_Aleg_Filasina={
+		name="Aleg Filasina"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Aleg_Filasina
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	MUZ_Yuris_Kravetarst={
+		name="Yuris Kravetarst"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Yuris_Kravetarst
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	MUZ_Markoladekse_Slikar={
+		name="Markoladekse Slikar"
+
+		advisor={
+			slot = high_command
+			idea_token = FIN_Markoladekse_Slikar
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	MUZ_Nikitaroslav_Imen={
+		name="Nikitaroslav Imen"
+
+		advisor={
+			slot = theorist
+			idea_token = FIN_Nikitaroslav_Imen
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MUZ_Yuran_Glat={
+		name="Yuran Glat"
+
+		advisor={
+			slot = theorist
+			idea_token = FIN_Yuran_Glat
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MUZ_Mirosladosla_Fila={
+		name="Mirosladosla Fila"
+
+		advisor={
+			slot = theorist
+			idea_token = FIN_Mirosladosla_Fila
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,580 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Slost' Militia Division"
+		location = 10430
+		division_template = "Militia Division"
+		start_experience_factor = 0.907029
+		start_equipment_factor = 0.737617
+	}
+	division= {
+		name = "2nd 'Hele' Militia Division"
+		location = 11487
+		division_template = "Militia Division"
+		start_experience_factor = 0.583019
+		start_equipment_factor = 0.727562
+	}
+	division= {
+		name = "3rd 'Seil' Militia Division"
+		location = 18900
+		division_template = "Militia Division"
+		start_experience_factor = 0.771170
+		start_equipment_factor = 0.761410
+	}
+	division= {
+		name = "4th 'Wasse' Militia Division"
+		location = 11352
+		division_template = "Militia Division"
+		start_experience_factor = 0.127420
+		start_equipment_factor = 0.883704
+	}
+	division= {
+		name = "5th 'Dohar' Militia Division"
+		location = 12478
+		division_template = "Militia Division"
+		start_experience_factor = 0.917114
+		start_equipment_factor = 0.742689
+	}
+	division= {
+		name = "6th 'Maghraqq' Militia Division"
+		location = 11616
+		division_template = "Militia Division"
+		start_experience_factor = 0.507308
+		start_equipment_factor = 0.728721
+	}
+	division= {
+		name = "7th 'Vrlik' Militia Division"
+		location = 7844
+		division_template = "Militia Division"
+		start_experience_factor = 0.521058
+		start_equipment_factor = 0.773246
+	}
+	division= {
+		name = "8th 'Abets' Militia Division"
+		location = 11085
+		division_template = "Militia Division"
+		start_experience_factor = 0.684961
+		start_equipment_factor = 0.721987
+	}
+	division= {
+		name = "9th 'Klaum' Militia Division"
+		location = 13007
+		division_template = "Militia Division"
+		start_experience_factor = 0.020084
+		start_equipment_factor = 0.723111
+	}
+	division= {
+		name = "10th 'Gold' Militia Division"
+		location = 12859
+		division_template = "Militia Division"
+		start_experience_factor = 0.932566
+		start_equipment_factor = 0.789064
+	}
+	division= {
+		name = "11th 'Kucan' Militia Division"
+		location = 12753
+		division_template = "Militia Division"
+		start_experience_factor = 0.521820
+		start_equipment_factor = 0.745370
+	}
+	division= {
+		name = "12th 'Kantza' Militia Division"
+		location = 9034
+		division_template = "Militia Division"
+		start_experience_factor = 0.271962
+		start_equipment_factor = 0.794293
+	}
+	division= {
+		name = "13th 'Samla' Militia Division"
+		location = 12445
+		division_template = "Militia Division"
+		start_experience_factor = 0.181381
+		start_equipment_factor = 0.847699
+	}
+	division= {
+		name = "14th 'Penya' Militia Division"
+		location = 10347
+		division_template = "Militia Division"
+		start_experience_factor = 0.151641
+		start_equipment_factor = 0.910664
+	}
+	division= {
+		name = "15th 'Begimena' Militia Division"
+		location = 9971
+		division_template = "Militia Division"
+		start_experience_factor = 0.752421
+		start_equipment_factor = 0.862247
+	}
+	division= {
+		name = "16th 'Rucak' Militia Division"
+		location = 8029
+		division_template = "Militia Division"
+		start_experience_factor = 0.889317
+		start_equipment_factor = 0.880958
+	}
+	division= {
+		name = "17th 'Torf' Militia Division"
+		location = 10273
+		division_template = "Militia Division"
+		start_experience_factor = 0.055079
+		start_equipment_factor = 0.881493
+	}
+	division= {
+		name = "18th 'Hele' Militia Division"
+		location = 11497
+		division_template = "Militia Division"
+		start_experience_factor = 0.003762
+		start_equipment_factor = 0.898247
+	}
+	division= {
+		name = "19th 'Graum' Militia Division"
+		location = 11331
+		division_template = "Militia Division"
+		start_experience_factor = 0.255868
+		start_equipment_factor = 0.772272
+	}
+	division= {
+		name = "20th 'Teatar' Militia Division"
+		location = 11177
+		division_template = "Militia Division"
+		start_experience_factor = 0.774062
+		start_equipment_factor = 0.882374
+	}
+	division= {
+		name = "21st 'Dobarstverod' Militia Division"
+		location = 9694
+		division_template = "Militia Division"
+		start_experience_factor = 0.096562
+		start_equipment_factor = 0.894303
+	}
+	division= {
+		name = "22nd 'Naroj' Militia Division"
+		location = 11815
+		division_template = "Militia Division"
+		start_experience_factor = 0.521931
+		start_equipment_factor = 0.880367
+	}
+	division= {
+		name = "23rd 'Izea' Militia Division"
+		location = 9970
+		division_template = "Militia Division"
+		start_experience_factor = 0.076946
+		start_equipment_factor = 0.801942
+	}
+	division= {
+		name = "24th 'Izvo' Militia Division"
+		location = 11749
+		division_template = "Militia Division"
+		start_experience_factor = 0.989542
+		start_equipment_factor = 0.882313
+	}
+	division= {
+		name = "25th 'Wasse' Militia Division"
+		location = 11512
+		division_template = "Militia Division"
+		start_experience_factor = 0.601089
+		start_equipment_factor = 0.909191
+	}
+	division= {
+		name = "26th 'Froster' Militia Division"
+		location = 10367
+		division_template = "Militia Division"
+		start_experience_factor = 0.118551
+		start_equipment_factor = 0.889970
+	}
+	division= {
+		name = "1st 'Mahra' Infantry Division"
+		location = 12472
+		division_template = "Infantry Division"
+		start_experience_factor = 0.851844
+		start_equipment_factor = 0.722823
+	}
+	division= {
+		name = "2nd 'Tharabr' Infantry Division"
+		location = 7991
+		division_template = "Infantry Division"
+		start_experience_factor = 0.504732
+		start_equipment_factor = 0.863940
+	}
+	division= {
+		name = "3rd 'Slak' Infantry Division"
+		location = 7958
+		division_template = "Infantry Division"
+		start_experience_factor = 0.354937
+		start_equipment_factor = 0.784802
+	}
+	division= {
+		name = "4th 'Pfen' Infantry Division"
+		location = 11286
+		division_template = "Infantry Division"
+		start_experience_factor = 0.265601
+		start_equipment_factor = 0.746007
+	}
+	division= {
+		name = "5th 'Fila' Infantry Division"
+		location = 9208
+		division_template = "Infantry Division"
+		start_experience_factor = 0.311112
+		start_equipment_factor = 0.776504
+	}
+	division= {
+		name = "6th 'Buchlostadt' Infantry Division"
+		location = 10607
+		division_template = "Infantry Division"
+		start_experience_factor = 0.488314
+		start_equipment_factor = 0.907815
+	}
+	division= {
+		name = "7th 'Kucaj' Infantry Division"
+		location = 11814
+		division_template = "Infantry Division"
+		start_experience_factor = 0.533591
+		start_equipment_factor = 0.884185
+	}
+	division= {
+		name = "8th 'Dusa' Infantry Division"
+		location = 7947
+		division_template = "Infantry Division"
+		start_experience_factor = 0.719561
+		start_equipment_factor = 0.781887
+	}
+	division= {
+		name = "9th 'Beitunkelhe' Infantry Division"
+		location = 10493
+		division_template = "Infantry Division"
+		start_experience_factor = 0.043130
+		start_equipment_factor = 0.831910
+	}
+	division= {
+		name = "10th 'Toder' Infantry Division"
+		location = 8491
+		division_template = "Infantry Division"
+		start_experience_factor = 0.721352
+		start_equipment_factor = 0.781091
+	}
+	division= {
+		name = "11th 'Hitz' Infantry Division"
+		location = 8655
+		division_template = "Infantry Division"
+		start_experience_factor = 0.507457
+		start_equipment_factor = 0.839343
+	}
+	division= {
+		name = "12th 'Haus' Infantry Division"
+		location = 8291
+		division_template = "Infantry Division"
+		start_experience_factor = 0.559150
+		start_equipment_factor = 0.740853
+	}
+	division= {
+		name = "13th 'Hele' Infantry Division"
+		location = 8096
+		division_template = "Infantry Division"
+		start_experience_factor = 0.958667
+		start_equipment_factor = 0.892551
+	}
+	division= {
+		name = "14th 'Feung' Infantry Division"
+		location = 9336
+		division_template = "Infantry Division"
+		start_experience_factor = 0.644099
+		start_equipment_factor = 0.798575
+	}
+	division= {
+		name = "15th 'Shibl' Infantry Division"
+		location = 10758
+		division_template = "Infantry Division"
+		start_experience_factor = 0.269041
+		start_equipment_factor = 0.841017
+	}
+	division= {
+		name = "16th 'Jaba' Infantry Division"
+		location = 11848
+		division_template = "Infantry Division"
+		start_experience_factor = 0.693103
+		start_equipment_factor = 0.864477
+	}
+	division= {
+		name = "17th 'Dobarodar' Infantry Division"
+		location = 9205
+		division_template = "Infantry Division"
+		start_experience_factor = 0.685665
+		start_equipment_factor = 0.753216
+	}
+	division= {
+		name = "18th 'Scht' Infantry Division"
+		location = 12979
+		division_template = "Infantry Division"
+		start_experience_factor = 0.433419
+		start_equipment_factor = 0.740573
+	}
+	division= {
+		name = "19th 'Haus' Infantry Division"
+		location = 10207
+		division_template = "Infantry Division"
+		start_experience_factor = 0.280677
+		start_equipment_factor = 0.910448
+	}
+	division= {
+		name = "20th 'Gold' Infantry Division"
+		location = 9367
+		division_template = "Infantry Division"
+		start_experience_factor = 0.535281
+		start_equipment_factor = 0.765299
+	}
+	division= {
+		name = "21st 'Begimena' Infantry Division"
+		location = 11419
+		division_template = "Infantry Division"
+		start_experience_factor = 0.150411
+		start_equipment_factor = 0.920193
+	}
+	division= {
+		name = "22nd 'Kraft' Infantry Division"
+		location = 9372
+		division_template = "Infantry Division"
+		start_experience_factor = 0.563378
+		start_equipment_factor = 0.913139
+	}
+	division= {
+		name = "23rd 'Bucht' Infantry Division"
+		location = 8097
+		division_template = "Infantry Division"
+		start_experience_factor = 0.470233
+		start_equipment_factor = 0.837069
+	}
+	division= {
+		name = "24th 'Hitz' Infantry Division"
+		location = 8655
+		division_template = "Infantry Division"
+		start_experience_factor = 0.796569
+		start_equipment_factor = 0.722184
+	}
+	division= {
+		name = "25th 'Most' Infantry Division"
+		location = 7894
+		division_template = "Infantry Division"
+		start_experience_factor = 0.336947
+		start_equipment_factor = 0.882675
+	}
+	division= {
+		name = "26th 'Licheise' Infantry Division"
+		location = 9345
+		division_template = "Infantry Division"
+		start_experience_factor = 0.777605
+		start_equipment_factor = 0.886017
+	}
+	division= {
+		name = "27th 'Graum' Infantry Division"
+		location = 11017
+		division_template = "Infantry Division"
+		start_experience_factor = 0.487509
+		start_equipment_factor = 0.747781
+	}
+	division= {
+		name = "28th 'Vazav' Infantry Division"
+		location = 10450
+		division_template = "Infantry Division"
+		start_experience_factor = 0.590637
+		start_equipment_factor = 0.746379
+	}
+	division= {
+		name = "29th 'Torn' Infantry Division"
+		location = 11360
+		division_template = "Infantry Division"
+		start_experience_factor = 0.672523
+		start_equipment_factor = 0.847607
+	}
+	division= {
+		name = "30th 'Pricht' Infantry Division"
+		location = 9442
+		division_template = "Infantry Division"
+		start_experience_factor = 0.984137
+		start_equipment_factor = 0.726915
+	}
+	division= {
+		name = "31st 'Hamme' Infantry Division"
+		location = 11545
+		division_template = "Infantry Division"
+		start_experience_factor = 0.462072
+		start_equipment_factor = 0.828409
+	}
+	division= {
+		name = "32nd 'Ahne' Infantry Division"
+		location = 12848
+		division_template = "Infantry Division"
+		start_experience_factor = 0.392822
+		start_equipment_factor = 0.849357
+	}
+	division= {
+		name = "33rd 'Himmel' Infantry Division"
+		location = 9489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.690226
+		start_equipment_factor = 0.824231
+	}
+	division= {
+		name = "1st 'Festurchwert' Cavalry Division"
+		location = 11511
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.473748
+		start_equipment_factor = 0.747626
+	}
+	division= {
+		name = "2nd 'Heit' Cavalry Division"
+		location = 12583
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.102027
+		start_equipment_factor = 0.750783
+	}
+	division= {
+		name = "3rd 'Greuese' Cavalry Division"
+		location = 8775
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.714385
+		start_equipment_factor = 0.728692
+	}
+	division= {
+		name = "4th 'Fross' Cavalry Division"
+		location = 10187
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.248370
+		start_equipment_factor = 0.915328
+	}
+	division= {
+		name = "5th 'Macht' Cavalry Division"
+		location = 11423
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.389116
+		start_equipment_factor = 0.724358
+	}
+	division= {
+		name = "6th 'Ilaba' Cavalry Division"
+		location = 11698
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.645401
+		start_equipment_factor = 0.872717
+	}
+	division= {
+		name = "7th 'Gold' Cavalry Division"
+		location = 12236
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.741285
+		start_equipment_factor = 0.846143
+	}
+	division= {
+		name = "8th 'Fluchriffeil' Cavalry Division"
+		location = 12578
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.058861
+		start_equipment_factor = 0.739635
+	}
+	division= {
+		name = "9th 'Ghurhajrahel' Cavalry Division"
+		location = 11610
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.496029
+		start_equipment_factor = 0.800553
+	}
+	division= {
+		name = "10th 'Staginze' Cavalry Division"
+		location = 12314
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.835490
+		start_equipment_factor = 0.874258
+	}
+	division= {
+		name = "11th 'Cvetno' Cavalry Division"
+		location = 7979
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.419501
+		start_equipment_factor = 0.906962
+	}
+	division= {
+		name = "12th 'Slan' Cavalry Division"
+		location = 10315
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.894786
+		start_equipment_factor = 0.727842
+	}
+	division= {
+		name = "13th 'Macht' Cavalry Division"
+		location = 11225
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.635966
+		start_equipment_factor = 0.841828
+	}
+	division= {
+		name = "14th 'Hafa' Cavalry Division"
+		location = 9826
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.241397
+		start_equipment_factor = 0.898744
+	}
+	division= {
+		name = "15th 'Fluchlaus' Cavalry Division"
+		location = 8777
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.985209
+		start_equipment_factor = 0.885196
+	}
+	division= {
+		name = "16th 'Erbe' Cavalry Division"
+		location = 10365
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.806575
+		start_equipment_factor = 0.873741
+	}
+
+}

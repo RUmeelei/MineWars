@@ -1,0 +1,39 @@
+
+state={
+	id=871
+	name="STATE_871"
+	manpower = 2995136
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12686 29}
+		victory_points = { 12690 9}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 4
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		12672 12673 12674 12675 12676 12677 12678 12679 12680 12681 12682 12683 12684 12685 12686 12687 12688 12689 12690 12691 12692 12693 12694 12695 12696 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,73 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tagherwaru Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Tagherwaru Fleet"
+			location = 17977
+			
+						ship = { name = "Taghalt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tigherwarwal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tafas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tiwizi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amellalalt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tiwizi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazmeqrart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tamunt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Taghalt 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tawla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tawla 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazrouka" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazrouka 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tamassifella" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazrou" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tadin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazmeqrart 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tigherwarwal 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tifellas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazrou 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazegza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Taghalt 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Thanemt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tafrawizi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amellalut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Azenzagmmi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tafrawizi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amellalut 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tiwizi 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tafsut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Taghalt 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tigherwarwal 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Amezi 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Nfour" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tamazir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Asiri" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazrou 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tazmeqrart 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tifellas 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tafsut 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+			ship = { name = "Tawt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHI version_name = "Taghalt Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

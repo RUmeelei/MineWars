@@ -1,0 +1,44 @@
+
+state={
+	id=580
+	name="STATE_580"
+	manpower = 1958076
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9053 3}
+		victory_points = { 9054 3}
+		victory_points = { 9072 3}
+		victory_points = { 9075 6}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			9054 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		9043 9044 9045 9046 9047 9048 9049 9050 9051 9052 9053 9054 9055 9056 9057 9058 9059 9060 9061 9062 9063 9064 9065 9066 9067 9068 9069 9070 9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 9081 9082 9083 9084 9085 9086 9087 9088 9089 9090 9091 9092 9093 9094 9095 9096 9097 9098 9099 9100 9101 9102 9103 9104 9105 9106 9107 9108 9109 9110 9111 
+	}
+	local_supplies=0.0 
+}

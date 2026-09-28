@@ -1,0 +1,37 @@
+
+state={
+	id=511
+	name="STATE_511"
+	manpower = 30244
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=9
+	}
+
+	history={
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		8104 8105 8106 8107 8108 8109 8110 8111 
+	}
+	local_supplies=0.0 
+}

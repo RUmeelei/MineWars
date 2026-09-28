@@ -1,0 +1,1083 @@
+characters = {
+	TUL_Kana_Ukkupak={
+		name="Kana Ukkupak"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Tulok_Kuvanurtaq={
+		name="Tulok Kuvanurtaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Tulok_Kuvanurtaq
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Nutarak_Nutak={
+		name="Nutarak Nutak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Nutarak_Nutak
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Nuvuk_Tiku={
+		name="Nuvuk Tiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Nuvuk_Tiku
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Taluk_Anuk={
+		name="Taluk Anuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Taluk_Anuk
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Naluk_Angmiat={
+		name="Naluk Angmiat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Naluk_Angmiat
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Amaq_Kuvanurtaq={
+		name="Amaq Kuvanurtaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Amaq_Kuvanurtaq
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Nanaq_Alat={
+		name="Nanaq Alat"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Nanaq_Alat
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TUL_Panuq_Tiku={
+		name="Panuq Tiku"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Panuq_Tiku
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TUL_Kaviku_Anuk={
+		name="Kaviku Anuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Kaviku_Anuk
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TUL_Tulok_Kuvuti={
+		name="Tulok Kuvuti"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Tulok_Kuvuti
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TUL_Kana_Olikiggakutu={
+		name="Kana Olikiggakutu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Kana_Olikiggakutu
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	TUL_Manaq_Ituaq={
+		name="Manaq Ituaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Manaq_Ituaq
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TUL_Nutarak_Kigaqadlakup={
+		name="Nutarak Kigaqadlakup"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Nutarak_Kigaqadlakup
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TUL_Kanik_Qikuktuliak={
+		name="Kanik Qikuktuliak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Kanik_Qikuktuliak
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TUL_Mana_Naluktuk={
+		name="Mana Naluktuk"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Mana_Naluktuk
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	TUL_Manaq_Alikuq={
+		name="Manaq Alikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Manaq_Alikuq
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	TUL_Kunikigaq_Tuuggak={
+		name="Kunikigaq Tuuggak"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kunikigaq_Tuuggak
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	TUL_Mikigaq_Oliya={
+		name="Mikigaq Oliya"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Mikigaq_Oliya
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TUL_Siku_Pipakuvutiq={
+		name="Siku Pipakuvutiq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Siku_Pipakuvutiq
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	TUL_Olik_Mikiq={
+		name="Olik Mikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Olik_Mikiq
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	TUL_Kanikigaq_Amaluk={
+		name="Kanikigaq Amaluk"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Maniku_Anuk={
+		name="Maniku Anuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Maniku_Anuk
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Manik_Avana={
+		name="Manik Avana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Manik_Avana
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	TUL_Qajaq_Avaker={
+		name="Qajaq Avaker"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Qajaq_Avaker
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Tulok_Nushaq={
+		name="Tulok Nushaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Tulok_Nushaq
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Kaviku_Oliya={
+		name="Kaviku Oliya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Kaviku_Oliya
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Kanuq_Kangelaq={
+		name="Kanuq Kangelaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Kanuq_Kangelaq
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Ukpik_Kuvanurtaq={
+		name="Ukpik Kuvanurtaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Ukpik_Kuvanurtaq
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TUL_Nanuq_Nuniq={
+		name="Nanuq Nuniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Nanuq_Nuniq
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TUL_Kavik_Sell={
+		name="Kavik Sell"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Kavik_Sell
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TUL_Tulok_Arniq={
+		name="Tulok Arniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Tulok_Arniq
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TUL_Amaq_Avanuk={
+		name="Amaq Avanuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Amaq_Avanuk
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TUL_Nutarak_Tamna={
+		name="Nutarak Tamna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Nutarak_Tamna
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	TUL_Mana_Iliqak={
+		name="Mana Iliqak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Mana_Iliqak
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	TUL_Kanaq_Naluktuk={
+		name="Kanaq Naluktuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Kanaq_Naluktuk
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TUL_Kunik_Iliq={
+		name="Kunik Iliq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kunik_Iliq
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	TUL_Naluk_Anuk={
+		name="Naluk Anuk"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Naluk_Anuk
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	TUL_Naluk_Atuk={
+		name="Naluk Atuk"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Naluk_Atuk
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TUL_Kana_Tamna={
+		name="Kana Tamna"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kana_Tamna
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	TUL_Kunikigaq_Alikuq={
+		name="Kunikigaq Alikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kunikigaq_Alikuq
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	TUL_Kanaq_Kaniq={
+		name="Kanaq Kaniq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kanaq_Kaniq
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	TUL_Kanikigaq_Kuvuti={
+		name="Kanikigaq Kuvuti"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Mana_Amasata={
+		name="Mana Amasata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Mana_Amasata
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	TUL_Nana_Surtak={
+		name="Nana Surtak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Nana_Surtak
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Mana_Igluq={
+		name="Mana Igluq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Mana_Igluq
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Kanik_Ilulokwimuk={
+		name="Kanik Ilulokwimuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Kanik_Ilulokwimuk
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Ukpik_Qikuktuliak={
+		name="Ukpik Qikuktuliak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Ukpik_Qikuktuliak
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Ukpik_Igluq={
+		name="Ukpik Igluq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Ukpik_Igluq
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	TUL_Ukpikigaq_Iliq={
+		name="Ukpikigaq Iliq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Ukpikigaq_Iliq
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TUL_Siku_Igluaq={
+		name="Siku Igluaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Siku_Igluaq
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TUL_Sila_Tingiqpaliak={
+		name="Sila Tingiqpaliak"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Sila_Tingiqpaliak
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TUL_Mikigaq_Pipakuvutiq={
+		name="Mikigaq Pipakuvutiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Mikigaq_Pipakuvutiq
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TUL_Sila_Kigaqadlakup={
+		name="Sila Kigaqadlakup"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Sila_Kigaqadlakup
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TUL_Taluk_Imarummaruq={
+		name="Taluk Imarummaruq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Taluk_Imarummaruq
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TUL_Nutarak_Amaluk={
+		name="Nutarak Amaluk"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Nutarak_Amaluk
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TUL_Kunik_Napik={
+		name="Kunik Napik"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Kunik_Napik
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TUL_Mikigaq_Iliqak={
+		name="Mikigaq Iliqak"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Mikigaq_Iliqak
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	TUL_Kana_Nutak={
+		name="Kana Nutak"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kana_Nutak
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TUL_Kanuq_Kuskon={
+		name="Kanuq Kuskon"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Kanuq_Kuskon
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	TUL_Nana_Ukkupak={
+		name="Nana Ukkupak"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Nana_Ukkupak
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	TUL_Manaq_Kigaqadlakup={
+		name="Manaq Kigaqadlakup"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Manaq_Kigaqadlakup
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	TUL_Manik_Colvi={
+		name="Manik Colvi"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Manik_Colvi
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TUL_Taluk_Tattaku={
+		name="Taluk Tattaku"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUL_Nana_Avaluaq={
+		name="Nana Avaluaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Nana_Avaluaq
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Atka_Sell={
+		name="Atka Sell"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Atka_Sell
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	TUL_Tulok_Colvi={
+		name="Tulok Colvi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Tulok_Colvi
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	TUL_Ukpik_Upik={
+		name="Ukpik Upik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Ukpik_Upik
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Maniku_Kipaitnapak={
+		name="Maniku Kipaitnapak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Maniku_Kipaitnapak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	TUL_Maniku_Angmiat={
+		name="Maniku Angmiat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ITA_Maniku_Angmiat
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	TUL_Kanik_Igluaq={
+		name="Kanik Igluaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Kanik_Igluaq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TUL_Mana_Alikuq={
+		name="Mana Alikuq"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Mana_Alikuq
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TUL_Maniku_Kuvuti={
+		name="Maniku Kuvuti"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Maniku_Kuvuti
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TUL_Kaviku_Avanuk={
+		name="Kaviku Avanuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = ITA_Kaviku_Avanuk
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TUL_Manuq_Colvi={
+		name="Manuq Colvi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Manuq_Colvi
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Nana_Kuskon={
+		name="Nana Kuskon"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ITA_Nana_Kuskon
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TUL_Kavik_Nuniq={
+		name="Kavik Nuniq"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Kavik_Nuniq
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TUL_Mikigaq_Napak={
+		name="Mikigaq Napak"
+
+		advisor={
+			slot = air_chief
+			idea_token = ITA_Mikigaq_Napak
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TUL_Tulok_Alikuq={
+		name="Tulok Alikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Tulok_Alikuq
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TUL_Iluk_Hayes={
+		name="Iluk Hayes"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Iluk_Hayes
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TUL_Amaq_Napik={
+		name="Amaq Napik"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Amaq_Napik
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	TUL_Amaq_Qikuktuliak={
+		name="Amaq Qikuktuliak"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Amaq_Qikuktuliak
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	TUL_Manaq_Naniq={
+		name="Manaq Naniq"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Manaq_Naniq
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	TUL_Amaq_Angmiat={
+		name="Amaq Angmiat"
+
+		advisor={
+			slot = high_command
+			idea_token = ITA_Amaq_Angmiat
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	TUL_Ukpik_Mikiq={
+		name="Ukpik Mikiq"
+
+		advisor={
+			slot = theorist
+			idea_token = ITA_Ukpik_Mikiq
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TUL_Naluk_Avalak={
+		name="Naluk Avalak"
+
+		advisor={
+			slot = theorist
+			idea_token = ITA_Naluk_Avalak
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TUL_Qajaq_Ford={
+		name="Qajaq Ford"
+
+		advisor={
+			slot = theorist
+			idea_token = ITA_Qajaq_Ford
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

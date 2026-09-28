@@ -1,0 +1,40 @@
+
+state={
+	id=624
+	name="STATE_624"
+	manpower = 1199960
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9867 3}
+		victory_points = { 9869 3}
+		victory_points = { 9874 7}
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		9866 9867 9868 9869 9870 9871 9872 9873 9874 9875 9876 9877 
+	}
+	local_supplies=0.0 
+}

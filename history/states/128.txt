@@ -1,0 +1,40 @@
+
+state={
+	id=128
+	name="STATE_128"
+	manpower = 143821
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2497 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		2496 2497 2498 2499 2500 2501 2502 2503 
+	}
+	local_supplies=0.0 
+}

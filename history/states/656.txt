@@ -1,0 +1,39 @@
+
+state={
+	id=656
+	name="STATE_656"
+	manpower = 4111616
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10320 32}
+		victory_points = { 10330 32}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 5
+			industrial_complex = 7
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		10320 10321 10322 10323 10324 10325 10326 10327 10328 10329 10330 10331 10332 10333 10334 10335 10336 10337 10338 10339 10340 10341 
+	}
+	local_supplies=0.0 
+}

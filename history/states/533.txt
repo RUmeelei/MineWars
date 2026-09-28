@@ -1,0 +1,37 @@
+
+state={
+	id=533
+	name="STATE_533"
+	manpower = 170647
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=11
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		8360 8361 8362 8363 8364 8365 8366 
+	}
+	local_supplies=0.0 
+}

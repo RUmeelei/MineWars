@@ -1,0 +1,45 @@
+
+state={
+	id=701
+	name="STATE_701"
+	manpower = 630660
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10830 1}
+		victory_points = { 10831 1}
+		victory_points = { 10832 1}
+		victory_points = { 10833 1}
+		victory_points = { 10835 1}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10830 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		10829 10830 10831 10832 10833 10834 10835 
+	}
+	local_supplies=0.0 
+}

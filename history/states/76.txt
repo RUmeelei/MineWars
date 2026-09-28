@@ -1,0 +1,40 @@
+
+state={
+	id=76
+	name="STATE_76"
+	manpower = 32062
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NEU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1993 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = NEU
+	}
+
+	provinces={
+		1986 1987 1988 1989 1990 1991 1992 1993 1994 
+	}
+	local_supplies=0.0 
+}

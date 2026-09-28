@@ -1,0 +1,39 @@
+
+state={
+	id=723
+	name="STATE_723"
+	manpower = 1220821
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11113 5}
+		victory_points = { 11115 15}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		11112 11113 11114 11115 11116 
+	}
+	local_supplies=0.0 
+}

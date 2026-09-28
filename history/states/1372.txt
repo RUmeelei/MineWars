@@ -1,0 +1,38 @@
+
+state={
+	id=1372
+	name="STATE_1372"
+	manpower = 350531
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17688 2}
+		
+		owner = SWI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		17687 17688 17689 17690 17691 
+	}
+	local_supplies=0.0 
+}

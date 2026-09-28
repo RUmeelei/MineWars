@@ -1,0 +1,1083 @@
+characters = {
+	KUC_Dmir_Vazanik={
+		name="Dmir Vazanik"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KUC_Bohdan_Slan={
+		name="Bohdan Slan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Bohdan_Slan
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Starosla_Otar={
+		name="Starosla Otar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Starosla_Otar
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Bogdan_Kame={
+		name="Bogdan Kame"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Bogdan_Kame
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Stefan_Svet={
+		name="Stefan Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Stefan_Svet
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Vlado_Most={
+		name="Vlado Most"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Vlado_Most
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Goragomas_Grod={
+		name="Goragomas Grod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Goragomas_Grod
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Rado_Plad={
+		name="Rado Plad"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Rado_Plad
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KUC_Bohdan_Sver={
+		name="Bohdan Sver"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Bohdan_Sver
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KUC_Bogdan_Grod={
+		name="Bogdan Grod"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Bogdan_Grod
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	KUC_Simiroslavko_Zivo={
+		name="Simiroslavko Zivo"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Simiroslavko_Zivo
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KUC_Sergei_Vatar={
+		name="Sergei Vatar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Sergei_Vatar
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	KUC_Stej_Zvuk={
+		name="Stej Zvuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Stej_Zvuk
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	KUC_Petanko_Maslat={
+		name="Petanko Maslat"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Petanko_Maslat
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KUC_Viktoran_Zvuk={
+		name="Viktoran Zvuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Viktoran_Zvuk
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KUC_Viktoran_Vodnosof={
+		name="Viktoran Vodnosof"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Viktoran_Vodnosof
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	KUC_Bogdan_Semljigana={
+		name="Bogdan Semljigana"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Bogdan_Semljigana
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	KUC_Stefan_Pasticana={
+		name="Stefan Pasticana"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Stefan_Pasticana
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	KUC_Zdenek_Kulat={
+		name="Zdenek Kulat"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Zdenek_Kulat
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KUC_Petar_Zvetlova={
+		name="Petar Zvetlova"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Petar_Zvetlova
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	KUC_Bogdan_Sporefekar={
+		name="Bogdan Sporefekar"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Bogdan_Sporefekar
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	KUC_Dusz_Suma={
+		name="Dusz Suma"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KUC_Miros_Hraladje={
+		name="Miros Hraladje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Miros_Hraladje
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Goragomas_Peska={
+		name="Goragomas Peska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Goragomas_Peska
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Radov_Voda={
+		name="Radov Voda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Radov_Voda
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Yurilav_Vecnosto={
+		name="Yurilav Vecnosto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Yurilav_Vecnosto
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Andrej_Lostrabrojsk={
+		name="Andrej Lostrabrojsk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Andrej_Lostrabrojsk
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Petan_Kucan={
+		name="Petan Kucan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Petan_Kucan
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Viktoran_Otar={
+		name="Viktoran Otar"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Viktoran_Otar
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KUC_Oleg_Semljigana={
+		name="Oleg Semljigana"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Oleg_Semljigana
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KUC_Vlav_Kapija={
+		name="Vlav Kapija"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Vlav_Kapija
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KUC_Stej_Pesnika={
+		name="Stej Pesnika"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Stej_Pesnika
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	KUC_Ivan_Zvuk={
+		name="Ivan Zvuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Ivan_Zvuk
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KUC_Star_Slost={
+		name="Star Slost"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Star_Slost
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KUC_Boraj_Voda={
+		name="Boraj Voda"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Boraj_Voda
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KUC_Vlav_Kulat={
+		name="Vlav Kulat"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Vlav_Kulat
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KUC_Simeon_Teatar={
+		name="Simeon Teatar"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Simeon_Teatar
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	KUC_Miroslav_Sreme={
+		name="Miroslav Sreme"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Miroslav_Sreme
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	KUC_Simiroslavko_Vodno={
+		name="Simiroslavko Vodno"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Simiroslavko_Vodno
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	KUC_Dusz_Zvetlo={
+		name="Dusz Zvetlo"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Dusz_Zvetlo
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	KUC_Mateusanis_Muda={
+		name="Mateusanis Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Mateusanis_Muda
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	KUC_Maroslav_Most={
+		name="Maroslav Most"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Maroslav_Most
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	KUC_Bran_Svit={
+		name="Bran Svit"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KUC_Viktoran_Voja={
+		name="Viktoran Voja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Viktoran_Voja
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Miloslavelim_Galak={
+		name="Miloslavelim Galak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Miloslavelim_Galak
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Tomir_Drvot={
+		name="Tomir Drvot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Tomir_Drvot
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Stefan_Kisa={
+		name="Stefan Kisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Stefan_Kisa
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Nikolan_Krada={
+		name="Nikolan Krada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Nikolan_Krada
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Vlado_Glak={
+		name="Vlado Glak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Vlado_Glak
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Radoslado_Slan={
+		name="Radoslado Slan"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Radoslado_Slan
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	KUC_Rado_Peska={
+		name="Rado Peska"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Rado_Peska
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KUC_Mateusz_Vecnosto={
+		name="Mateusz Vecnosto"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Mateusz_Vecnosto
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KUC_Maroslav_Lekar={
+		name="Maroslav Lekar"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Maroslav_Lekar
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	KUC_Luboslavelim_Senazavinja={
+		name="Luboslavelim Senazavinja"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Luboslavelim_Senazavinja
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	KUC_Vladimirosla_Slica={
+		name="Vladimirosla Slica"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Vladimirosla_Slica
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KUC_Petar_Tvrdjav={
+		name="Petar Tvrdjav"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Petar_Tvrdjav
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	KUC_Ilya_Laga={
+		name="Ilya Laga"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Ilya_Laga
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KUC_Olexei_Muda={
+		name="Olexei Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Olexei_Muda
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	KUC_Vladenek_Umena={
+		name="Vladenek Umena"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Vladenek_Umena
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KUC_Pavko_Vecnosto={
+		name="Pavko Vecnosto"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Pavko_Vecnosto
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	KUC_Bran_Polja={
+		name="Bran Polja"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Bran_Polja
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	KUC_Alexei_Hravda={
+		name="Alexei Hravda"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Alexei_Hravda
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KUC_Zori_Senazavinja={
+		name="Zori Senazavinja"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Zori_Senazavinja
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	KUC_Goragomitank_Voda={
+		name="Goragomitank Voda"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KUC_Bohdan_Poljava={
+		name="Bohdan Poljava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Bohdan_Poljava
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Viko_Svet={
+		name="Viko Svet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Viko_Svet
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Petanko_Hraladje={
+		name="Petanko Hraladje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Petanko_Hraladje
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Ilya_Kulat={
+		name="Ilya Kulat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Ilya_Kulat
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KUC_Nikoladeneks_Sreska={
+		name="Nikoladeneks Sreska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Nikoladeneks_Sreska
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KUC_Goran_Prir={
+		name="Goran Prir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_Goran_Prir
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KUC_Kazimir_Vrlik={
+		name="Kazimir Vrlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Kazimir_Vrlik
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KUC_Viktoran_Svet={
+		name="Viktoran Svet"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Viktoran_Svet
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	KUC_Boraj_Kranator={
+		name="Boraj Kranator"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Boraj_Kranator
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KUC_Olexei_Cvetno={
+		name="Olexei Cvetno"
+
+		advisor={
+			slot = army_chief
+			idea_token = RUS_Olexei_Cvetno
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KUC_Goragomitank_Vecnosto={
+		name="Goragomitank Vecnosto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Goragomitank_Vecnosto
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KUC_Rado_Sneg={
+		name="Rado Sneg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = RUS_Rado_Sneg
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	KUC_Maroslav_Delova={
+		name="Maroslav Delova"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Maroslav_Delova
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KUC_Juril_Kisija={
+		name="Juril Kisija"
+
+		advisor={
+			slot = air_chief
+			idea_token = RUS_Juril_Kisija
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KUC_Miloslado_Slan={
+		name="Miloslado Slan"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Miloslado_Slan
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KUC_Bori_Dobarstverod={
+		name="Bori Dobarstverod"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Bori_Dobarstverod
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KUC_Bogdan_Sneg={
+		name="Bogdan Sneg"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Bogdan_Sneg
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	KUC_Borislavkola_Kranator={
+		name="Borislavkola Kranator"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Borislavkola_Kranator
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	KUC_Vladimirosla_Sneg={
+		name="Vladimirosla Sneg"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Vladimirosla_Sneg
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	KUC_Dmir_Senazavinja={
+		name="Dmir Senazavinja"
+
+		advisor={
+			slot = high_command
+			idea_token = RUS_Dmir_Senazavinja
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	KUC_Yurilav_Tezak={
+		name="Yurilav Tezak"
+
+		advisor={
+			slot = theorist
+			idea_token = RUS_Yurilav_Tezak
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KUC_Petar_Rekar={
+		name="Petar Rekar"
+
+		advisor={
+			slot = theorist
+			idea_token = RUS_Petar_Rekar
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KUC_Milan_Svetadar={
+		name="Milan Svetadar"
+
+		advisor={
+			slot = theorist
+			idea_token = RUS_Milan_Svetadar
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

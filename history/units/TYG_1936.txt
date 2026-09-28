@@ -1,0 +1,449 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Afrar' Militia Division"
+		location = 6874
+		division_template = "Militia Division"
+		start_experience_factor = 0.841542
+		start_equipment_factor = 0.902614
+	}
+	division= {
+		name = "2nd 'Taghra' Militia Division"
+		location = 2994
+		division_template = "Militia Division"
+		start_experience_factor = 0.924897
+		start_equipment_factor = 0.887899
+	}
+	division= {
+		name = "3rd 'Tohilam' Militia Division"
+		location = 671
+		division_template = "Militia Division"
+		start_experience_factor = 0.847605
+		start_equipment_factor = 0.732193
+	}
+	division= {
+		name = "4th 'Tidrart' Militia Division"
+		location = 3170
+		division_template = "Militia Division"
+		start_experience_factor = 0.641598
+		start_equipment_factor = 0.828518
+	}
+	division= {
+		name = "5th 'Tawri' Militia Division"
+		location = 6529
+		division_template = "Militia Division"
+		start_experience_factor = 0.334305
+		start_equipment_factor = 0.762428
+	}
+	division= {
+		name = "6th 'Tislit' Militia Division"
+		location = 3168
+		division_template = "Militia Division"
+		start_experience_factor = 0.198750
+		start_equipment_factor = 0.896893
+	}
+	division= {
+		name = "7th 'Adrar' Militia Division"
+		location = 3663
+		division_template = "Militia Division"
+		start_experience_factor = 0.016203
+		start_equipment_factor = 0.824133
+	}
+	division= {
+		name = "8th 'Asit' Militia Division"
+		location = 3713
+		division_template = "Militia Division"
+		start_experience_factor = 0.921916
+		start_equipment_factor = 0.853633
+	}
+	division= {
+		name = "9th 'Tighal' Militia Division"
+		location = 113
+		division_template = "Militia Division"
+		start_experience_factor = 0.117101
+		start_equipment_factor = 0.742300
+	}
+	division= {
+		name = "10th 'Taghra' Militia Division"
+		location = 3707
+		division_template = "Militia Division"
+		start_experience_factor = 0.552739
+		start_equipment_factor = 0.874140
+	}
+	division= {
+		name = "11th 'Asirt' Militia Division"
+		location = 3199
+		division_template = "Militia Division"
+		start_experience_factor = 0.521154
+		start_equipment_factor = 0.788575
+	}
+	division= {
+		name = "12th 'Azrou' Militia Division"
+		location = 6938
+		division_template = "Militia Division"
+		start_experience_factor = 0.247868
+		start_equipment_factor = 0.802078
+	}
+	division= {
+		name = "13th 'Zamanek' Militia Division"
+		location = 4145
+		division_template = "Militia Division"
+		start_experience_factor = 0.941140
+		start_equipment_factor = 0.791137
+	}
+	division= {
+		name = "14th 'Tamsa' Militia Division"
+		location = 2092
+		division_template = "Militia Division"
+		start_experience_factor = 0.224920
+		start_equipment_factor = 0.787867
+	}
+	division= {
+		name = "15th 'Tamsa' Militia Division"
+		location = 5406
+		division_template = "Militia Division"
+		start_experience_factor = 0.551033
+		start_equipment_factor = 0.826693
+	}
+	division= {
+		name = "16th 'Nohichenquen' Militia Division"
+		location = 1647
+		division_template = "Militia Division"
+		start_experience_factor = 0.833729
+		start_equipment_factor = 0.876044
+	}
+	division= {
+		name = "17th 'Amerwarwizi' Militia Division"
+		location = 3002
+		division_template = "Militia Division"
+		start_experience_factor = 0.410560
+		start_equipment_factor = 0.813948
+	}
+	division= {
+		name = "18th 'Taghbalt' Militia Division"
+		location = 3016
+		division_template = "Militia Division"
+		start_experience_factor = 0.436397
+		start_equipment_factor = 0.812505
+	}
+	division= {
+		name = "19th 'Taghra' Militia Division"
+		location = 6866
+		division_template = "Militia Division"
+		start_experience_factor = 0.224189
+		start_equipment_factor = 0.821966
+	}
+	division= {
+		name = "1st 'Imim' Infantry Division"
+		location = 3154
+		division_template = "Infantry Division"
+		start_experience_factor = 0.292220
+		start_equipment_factor = 0.760320
+	}
+	division= {
+		name = "2nd 'Tigharin' Infantry Division"
+		location = 3071
+		division_template = "Infantry Division"
+		start_experience_factor = 0.845410
+		start_equipment_factor = 0.876243
+	}
+	division= {
+		name = "3rd 'Agadin' Infantry Division"
+		location = 232
+		division_template = "Infantry Division"
+		start_experience_factor = 0.385861
+		start_equipment_factor = 0.755444
+	}
+	division= {
+		name = "4th 'Sakal' Infantry Division"
+		location = 4198
+		division_template = "Infantry Division"
+		start_experience_factor = 0.470275
+		start_equipment_factor = 0.801286
+	}
+	division= {
+		name = "5th 'Tislit' Infantry Division"
+		location = 3134
+		division_template = "Infantry Division"
+		start_experience_factor = 0.434417
+		start_equipment_factor = 0.753779
+	}
+	division= {
+		name = "6th 'Tohichen' Infantry Division"
+		location = 6419
+		division_template = "Infantry Division"
+		start_experience_factor = 0.390472
+		start_equipment_factor = 0.713302
+	}
+	division= {
+		name = "7th 'Bakmulkin' Infantry Division"
+		location = 4143
+		division_template = "Infantry Division"
+		start_experience_factor = 0.406655
+		start_equipment_factor = 0.842886
+	}
+	division= {
+		name = "8th 'Imox' Infantry Division"
+		location = 6430
+		division_template = "Infantry Division"
+		start_experience_factor = 0.584625
+		start_equipment_factor = 0.795509
+	}
+	division= {
+		name = "9th 'Surtak' Infantry Division"
+		location = 5468
+		division_template = "Infantry Division"
+		start_experience_factor = 0.095024
+		start_equipment_factor = 0.844208
+	}
+	division= {
+		name = "10th 'Tamazdant' Infantry Division"
+		location = 142
+		division_template = "Infantry Division"
+		start_experience_factor = 0.028912
+		start_equipment_factor = 0.795486
+	}
+	division= {
+		name = "11th 'Tiwiziremzou' Infantry Division"
+		location = 3667
+		division_template = "Infantry Division"
+		start_experience_factor = 0.067302
+		start_equipment_factor = 0.869629
+	}
+	division= {
+		name = "12th 'Tazwur' Infantry Division"
+		location = 4260
+		division_template = "Infantry Division"
+		start_experience_factor = 0.633603
+		start_equipment_factor = 0.870033
+	}
+	division= {
+		name = "13th 'Tiwinirenzul' Infantry Division"
+		location = 78
+		division_template = "Infantry Division"
+		start_experience_factor = 0.931111
+		start_equipment_factor = 0.835671
+	}
+	division= {
+		name = "14th 'Tamazras' Infantry Division"
+		location = 90
+		division_template = "Infantry Division"
+		start_experience_factor = 0.476824
+		start_equipment_factor = 0.800757
+	}
+	division= {
+		name = "15th 'Tidrart' Infantry Division"
+		location = 6981
+		division_template = "Infantry Division"
+		start_experience_factor = 0.918868
+		start_equipment_factor = 0.819154
+	}
+	division= {
+		name = "16th 'Tiwiziremzou' Infantry Division"
+		location = 3187
+		division_template = "Infantry Division"
+		start_experience_factor = 0.371886
+		start_equipment_factor = 0.761946
+	}
+	division= {
+		name = "17th 'Takhmi' Infantry Division"
+		location = 3174
+		division_template = "Infantry Division"
+		start_experience_factor = 0.026693
+		start_equipment_factor = 0.770269
+	}
+	division= {
+		name = "18th 'Tazdan' Infantry Division"
+		location = 3635
+		division_template = "Infantry Division"
+		start_experience_factor = 0.506261
+		start_equipment_factor = 0.746105
+	}
+	division= {
+		name = "19th 'Adrawen' Infantry Division"
+		location = 1996
+		division_template = "Infantry Division"
+		start_experience_factor = 0.919632
+		start_equipment_factor = 0.708313
+	}
+	division= {
+		name = "1st 'Tighren' Cavalry Division"
+		location = 5400
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.425313
+		start_equipment_factor = 0.859198
+	}
+	division= {
+		name = "2nd 'Avanuk' Cavalry Division"
+		location = 1140
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.767973
+		start_equipment_factor = 0.762917
+	}
+	division= {
+		name = "3rd 'Tawinas' Cavalry Division"
+		location = 3030
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.961273
+		start_equipment_factor = 0.826349
+	}
+	division= {
+		name = "4th 'Tamazdant' Cavalry Division"
+		location = 659
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.649460
+		start_equipment_factor = 0.862975
+	}
+	division= {
+		name = "5th 'Imim' Cavalry Division"
+		location = 6945
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.298902
+		start_equipment_factor = 0.874948
+	}
+	division= {
+		name = "6th 'Sayilhau' Cavalry Division"
+		location = 4062
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.113447
+		start_equipment_factor = 0.720227
+	}
+	division= {
+		name = "7th 'Tiwizi' Cavalry Division"
+		location = 3634
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.419309
+		start_equipment_factor = 0.751150
+	}
+	division= {
+		name = "8th 'Tigharin' Cavalry Division"
+		location = 6986
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.767218
+		start_equipment_factor = 0.819624
+	}
+	division= {
+		name = "9th 'Tamast' Cavalry Division"
+		location = 4249
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.300198
+		start_equipment_factor = 0.717070
+	}
+	division= {
+		name = "10th 'Imaq' Cavalry Division"
+		location = 5115
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.944159
+		start_equipment_factor = 0.862616
+	}
+	division= {
+		name = "11th 'Tiwizi' Cavalry Division"
+		location = 3069
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.758994
+		start_equipment_factor = 0.822971
+	}
+	division= {
+		name = "12th 'Caran' Cavalry Division"
+		location = 1663
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.259056
+		start_equipment_factor = 0.740508
+	}
+	division= {
+		name = "13th 'Tighal' Cavalry Division"
+		location = 4981
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.367319
+		start_equipment_factor = 0.754337
+	}
+	division= {
+		name = "14th 'Kavuk' Cavalry Division"
+		location = 7157
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.360188
+		start_equipment_factor = 0.717396
+	}
+	division= {
+		name = "15th 'Amella' Cavalry Division"
+		location = 222
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.721123
+		start_equipment_factor = 0.831641
+	}
+	division= {
+		name = "16th 'Tagharwizi' Cavalry Division"
+		location = 3062
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.706537
+		start_equipment_factor = 0.826685
+	}
+	division= {
+		name = "17th 'Amenzart' Cavalry Division"
+		location = 188
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.602610
+		start_equipment_factor = 0.810975
+	}
+	division= {
+		name = "18th 'Azrou' Cavalry Division"
+		location = 3183
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.792409
+		start_equipment_factor = 0.793976
+	}
+	division= {
+		name = "19th 'Amenzart' Cavalry Division"
+		location = 3644
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.314722
+		start_equipment_factor = 0.800001
+	}
+
+}

@@ -1,0 +1,355 @@
+capital = 187
+
+oob = "TYG_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TYG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TYG_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Tazegzi Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Taddaremmi Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Adrar Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tamazras Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TYG_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "TYG_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TYG_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Tamsirt Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TYG_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Tamsirt Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = SCO_Aselmad_Takwin
+recruit_character = SCO_Mimokran_Tifella
+recruit_character = SCO_Aselmarimokr_Agraw
+recruit_character = SCO_Amokrane_Tazdayenzur
+recruit_character = SCO_Sifax_Tazrawlal
+recruit_character = SCO_Yuba_Imim
+recruit_character = SCO_Karen_Tidrart
+recruit_character = SCO_Amaren_Tazegzi
+recruit_character = SCO_Tahar_Tighan
+recruit_character = SCO_Meziz_Tazemmi
+recruit_character = SCO_Tafsut_Tislit
+recruit_character = SCO_Mezian_Tamsirin
+recruit_character = SCO_Ziriq_Azrawenza
+recruit_character = SCO_Amad_Azegza
+recruit_character = SCO_Tafsut_Nfous
+recruit_character = SCO_Amar_Tighal
+recruit_character = SCO_Mimokran_Tawenzar
+recruit_character = SCO_Amaren_Taghbalt
+recruit_character = SCO_Aselmar_Tazrast
+recruit_character = SCO_Kariq_Tawinas
+recruit_character = SCO_Iderfax_Tifella
+recruit_character = SCO_Mimoun_Tazenzaghbal
+recruit_character = SCO_Aselmar_Awar
+recruit_character = SCO_Tahari_Tifella
+recruit_character = SCO_Zirimoun_Tifella
+recruit_character = SCO_Yannis_Imim
+recruit_character = SCO_Amoun_Amelt
+recruit_character = SCO_Ziriq_Tajmilt
+recruit_character = SCO_Amokrane_Tislit
+recruit_character = SCO_Mimokran_Taziren
+recruit_character = SCO_Aziane_Tallaska
+recruit_character = SCO_Aselmar_Azeggagherwa
+recruit_character = SCO_Iderfannissi_Taddaremmi
+recruit_character = SCO_Azian_Taghbalt
+recruit_character = SCO_Mimoun_Tazrart
+recruit_character = SCO_Tari_Taziren
+recruit_character = SCO_Zirimoun_Azrawenza
+recruit_character = SCO_Amar_Awar
+recruit_character = SCO_Tahari_Agadin
+recruit_character = SCO_Sifax_Taziriri
+recruit_character = SCO_Saidi_Amdir
+recruit_character = SCO_Tari_Targadinirt
+recruit_character = SCO_Aselmad_Taziriri
+recruit_character = SCO_Sifannissa_Tiwinirenzul
+recruit_character = SCO_Saidi_Tidrart
+recruit_character = SCO_Iderfan_Imim
+recruit_character = SCO_Mezian_Tamsa
+recruit_character = SCO_Meziz_Tighren
+recruit_character = SCO_Zirim_Tamazras
+recruit_character = SCO_Azian_Amerwarwizi
+recruit_character = SCO_Iderfannissi_Tazrart
+recruit_character = SCO_Amaren_Adrawen
+recruit_character = SCO_Zirimoun_Azegza
+recruit_character = SCO_Aselmarimokr_Tallaska
+recruit_character = SCO_Iderfan_Thanemmi
+recruit_character = SCO_Aselmar_Tamsirin
+recruit_character = SCO_Aziz_Tiwinirenzul
+recruit_character = SCO_Mokrane_Thanemmi
+recruit_character = SCO_Aziane_Tigharin
+recruit_character = SCO_Ziri_Taziren
+recruit_character = SCO_Mokrannis_Aghissou
+recruit_character = SCO_Aselmarimokr_Taziren
+recruit_character = SCO_Amad_Tissirt
+recruit_character = SCO_Tahari_Imilal
+recruit_character = SCO_Azian_Tallaska
+recruit_character = SCO_Mezian_Tawenzar
+recruit_character = SCO_Amaren_Takhmi
+recruit_character = SCO_Yannissiniss_Tajmilt
+recruit_character = SCO_Yannissiniss_Imim
+recruit_character = SCO_Mokrannis_Tidrart
+recruit_character = SCO_Amoun_Tazenzaghbal
+recruit_character = SCO_Yane_Tamast
+recruit_character = SCO_Aselmar_Tazawen
+recruit_character = SCO_Amokrane_Amdir
+recruit_character = SCO_Amar_Tazem
+recruit_character = SCO_Iderfane_Tazmella
+recruit_character = SCO_Aselmad_Amdir
+recruit_character = SCO_Ziri_Tawenzar
+recruit_character = SCO_Aselmarimokr_Tazrast
+recruit_character = SCO_Yane_Takilt
+recruit_character = SCO_Taren_Aghissou
+recruit_character = SCO_Mokran_Tissirt
+recruit_character = SCO_Taren_Tawri
+recruit_character = SCO_Ziri_Asirt
+recruit_character = SCO_Sifax_Tiwinirenzul
+recruit_character = SCO_Aselmar_Tazemmi
+recruit_character = SCO_Amaren_Tidrart
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 41
+set_stability = 0.71
+set_war_support = 0.48
+
+add_ideas = {
+limited_conscription
+civilian_economy
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1886.9.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 23
+	fascism = 23
+	communism = 24
+	neutrality = 30
+}
+
+
+
+
+

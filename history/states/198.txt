@@ -1,0 +1,39 @@
+
+state={
+	id=198
+	name="STATE_198"
+	manpower = 877546
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3879 5}
+		victory_points = { 3885 5}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		3879 3880 3881 3882 3883 3884 3885 3886 
+	}
+	local_supplies=0.0 
+}

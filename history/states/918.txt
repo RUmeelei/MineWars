@@ -1,0 +1,39 @@
+
+state={
+	id=918
+	name="STATE_918"
+	manpower = 1664631
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13067 8}
+		victory_points = { 13078 8}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		13067 13068 13069 13070 13071 13072 13073 13074 13075 13076 13077 13078 13079 13080 13081 13082 13083 13084 13085 13086 13087 13088 13089 
+	}
+	local_supplies=0.0 
+}

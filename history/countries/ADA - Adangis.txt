@@ -1,0 +1,515 @@
+capital = 383
+
+oob = "ADA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "ADA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "ADA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Rama Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pasai Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Teremi Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Gela Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ADA_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "ADA_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "ADA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Lembah Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Lembah Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tembak Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Launung Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Launung Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Jalau Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Pertah Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "ADA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Lembah Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Lembah Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Tembak Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Launung Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Launung Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Jalau Class"
+			type = ship_hull_carrier_conversion_bb
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Pertah Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = NEU_Waya_Kepi
+recruit_character = NEU_Fajari_Haramah
+recruit_character = NEU_Joko_Pertah
+recruit_character = NEU_Sakti_Darakmatah
+recruit_character = NEU_Joko_Anah
+recruit_character = NEU_Ketutfi_Cahayahlampi
+recruit_character = NEU_Hario_Pohon
+recruit_character = NEU_Bamban_Buatahgung
+recruit_character = NEU_Rama_Haramah
+recruit_character = NEU_Bama_Kepuar
+recruit_character = NEU_Rizal_Tara
+recruit_character = NEU_Hario_Sehasa
+recruit_character = NEU_Joko_Wara
+recruit_character = NEU_Ketutfi_Perahliang
+recruit_character = NEU_Hari_Gelut
+recruit_character = NEU_Dewa_Raja
+recruit_character = NEU_Rama_Badang
+recruit_character = NEU_Joko_Tepisuci
+recruit_character = NEU_Lutra_Arwa
+recruit_character = NEU_Rama_Peni
+recruit_character = NEU_Lutra_Pasir
+recruit_character = NEU_Surya_Anah
+recruit_character = NEU_Agus_Buatahgung
+recruit_character = NEU_Suryang_Sedis
+recruit_character = NEU_Andi_Sedis
+recruit_character = NEU_Arjuna_Gela
+recruit_character = NEU_Fajar_Sedik
+recruit_character = NEU_Ketut_Seja
+recruit_character = NEU_Surya_Pasai
+recruit_character = NEU_Agus_Pada
+recruit_character = NEU_Ketutra_Nerbubuarnam
+recruit_character = NEU_Hari_Launung
+recruit_character = NEU_Suryan_Trahaba
+recruit_character = NEU_Agus_Tarnan
+recruit_character = NEU_Putra_Trakit
+recruit_character = NEU_Lutfi_Tuarap
+recruit_character = NEU_Fajar_Pohabatahlam
+recruit_character = NEU_Agus_Kakuat
+recruit_character = NEU_Budi_Lelan
+recruit_character = NEU_Lutra_Tara
+recruit_character = NEU_Putra_Pahguncaka
+recruit_character = NEU_Ketutfi_Badik
+recruit_character = NEU_Ketutfi_Kakuat
+recruit_character = NEU_Budi_Mimendung
+recruit_character = NEU_Budi_Pulajar
+recruit_character = NEU_Ketut_Senjelut
+recruit_character = NEU_Ketutfi_Tembak
+recruit_character = NEU_Agus_Darakmatah
+recruit_character = NEU_Budi_Sedik
+recruit_character = NEU_Rama_Pasirmatan
+recruit_character = NEU_Sakti_Senjelut
+recruit_character = NEU_Suryan_Tepi
+recruit_character = NEU_Ketutra_Kepi
+recruit_character = NEU_Sakti_Kepi
+recruit_character = NEU_Bambang_Nerbubuarnam
+recruit_character = NEU_Sakti_Raja
+recruit_character = NEU_Budi_Mudat
+recruit_character = NEU_Dewa_Dimban
+recruit_character = NEU_Lutfi_Pasai
+recruit_character = NEU_Hari_Anah
+recruit_character = NEU_Hari_Trakit
+recruit_character = NEU_Rizal_Batu
+recruit_character = NEU_Lutra_Kaku
+recruit_character = NEU_Budi_Hidungit
+recruit_character = NEU_Ketut_Tepi
+recruit_character = NEU_Andi_Sehasa
+recruit_character = NEU_Waya_Tarnan
+recruit_character = NEU_Wayang_Wara
+recruit_character = NEU_Dewa_Pertah
+recruit_character = NEU_Lutfi_Takumbatawah
+recruit_character = NEU_Rizal_Kakitukelita
+recruit_character = NEU_Ketutra_Anah
+recruit_character = NEU_Lutra_Sahgung
+recruit_character = NEU_Surya_Pahguncaka
+recruit_character = NEU_Budi_Halama
+recruit_character = NEU_Lutra_Kepuar
+recruit_character = NEU_Putfi_Kepuar
+recruit_character = NEU_Bama_Muda
+recruit_character = NEU_Suryan_Tara
+recruit_character = NEU_Bama_Pulajar
+recruit_character = NEU_Surya_Pohabatahlam
+recruit_character = NEU_Fajari_Jalau
+recruit_character = NEU_Agus_Perahliang
+recruit_character = NEU_Fajar_Pertah
+recruit_character = NEU_Putfi_Darakmatah
+recruit_character = NEU_Ketut_Adangis
+recruit_character = NEU_Rama_Tepisuci
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.12
+set_war_support = 0.48
+
+add_ideas = {
+volunteer_only
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 7
+	fascism = 4
+	communism = 43
+	neutrality = 46
+}
+
+
+
+
+

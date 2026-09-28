@@ -1,0 +1,36 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Saki Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Saki Fleet"
+			location = 18324
+			
+						ship = { name = "Lelang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Kapata" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Senyi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Muda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Warnau" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Mulan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Kapata 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Hala" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Jiwo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+			ship = { name = "Adih" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWI version_name = "Mulamatahang Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

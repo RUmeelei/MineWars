@@ -1,0 +1,40 @@
+
+state={
+	id=144
+	name="STATE_144"
+	manpower = 1311590
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2716 9}
+		victory_points = { 2717 4}
+		victory_points = { 2718 4}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 3
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		2714 2715 2716 2717 2718 
+	}
+	local_supplies=0.0 
+}

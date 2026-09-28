@@ -1,0 +1,37 @@
+
+state={
+	id=733
+	name="STATE_733"
+	manpower = 54706
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=4
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=3
+		coal=9
+	}
+
+	history={
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		11189 11190 11191 
+	}
+	local_supplies=0.0 
+}

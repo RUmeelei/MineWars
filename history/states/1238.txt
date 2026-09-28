@@ -1,0 +1,40 @@
+
+state={
+	id=1238
+	name="STATE_1238"
+	manpower = 1197705
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16220 4}
+		victory_points = { 16222 4}
+		victory_points = { 16223 9}
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		16220 16221 16222 16223 16224 
+	}
+	local_supplies=0.0 
+}

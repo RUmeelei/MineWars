@@ -1,0 +1,45 @@
+
+state={
+	id=19
+	name="STATE_19"
+	manpower = 5960187
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 584 17}
+		victory_points = { 591 17}
+		victory_points = { 605 17}
+		victory_points = { 609 17}
+		victory_points = { 611 17}
+		
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 3
+			609 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 
+	}
+	local_supplies=0.0 
+}

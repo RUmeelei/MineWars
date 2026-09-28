@@ -1,0 +1,40 @@
+
+state={
+	id=579
+	name="STATE_579"
+	manpower = 0
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=5
+		coal=12
+	}
+
+	history={
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9038 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		9034 9035 9036 9037 9038 9039 9040 9041 9042 
+	}
+	local_supplies=0.0 
+}

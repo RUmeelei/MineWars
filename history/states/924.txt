@@ -1,0 +1,41 @@
+
+state={
+	id=924
+	name="STATE_924"
+	manpower = 1110610
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=10
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13135 2}
+		victory_points = { 13150 2}
+		victory_points = { 13151 2}
+		victory_points = { 13168 2}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		13128 13129 13130 13131 13132 13133 13134 13135 13136 13137 13138 13139 13140 13141 13142 13143 13144 13145 13146 13147 13148 13149 13150 13151 13152 13153 13154 13155 13156 13157 13158 13159 13160 13161 13162 13163 13164 13165 13166 13167 13168 
+	}
+	local_supplies=0.0 
+}

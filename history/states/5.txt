@@ -1,0 +1,40 @@
+
+state={
+	id=5
+	name="STATE_5"
+	manpower = 402763
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			67 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		60 61 62 63 64 65 66 67 68 69 
+	}
+	local_supplies=0.0 
+}

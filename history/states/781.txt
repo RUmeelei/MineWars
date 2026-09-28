@@ -1,0 +1,44 @@
+
+state={
+	id=781
+	name="STATE_781"
+	manpower = 1085928
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11704 4}
+		victory_points = { 11707 2}
+		victory_points = { 11711 2}
+		victory_points = { 11712 2}
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			11707 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		11700 11701 11702 11703 11704 11705 11706 11707 11708 11709 11710 11711 11712 
+	}
+	local_supplies=0.0 
+}

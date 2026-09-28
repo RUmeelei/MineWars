@@ -1,0 +1,438 @@
+capital = 1351
+
+oob = "TAG_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TAG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TAG_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Amdakli Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Azegzirt Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tifellas Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TAG_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "TAG_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "TAG_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Taghalt Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tadin Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Imghan Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nfour Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Asiri Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TAG_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Taghalt Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Tadin Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Imghan Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Nfour Class"
+			type = ship_hull_carrier_conversion_ca
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Asiri Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = CHI_Saidi_Amdin
+recruit_character = CHI_Aziane_Amdakli
+recruit_character = CHI_Lyes_Tigherwarwal
+recruit_character = CHI_Aselmaren_Tamsirawt
+recruit_character = CHI_Zirimoun_Takilt
+recruit_character = CHI_Iderfane_Afsut
+recruit_character = CHI_Mokrannissin_Imghan
+recruit_character = CHI_Massinis_Afsut
+recruit_character = CHI_Zirimokrane_Tislit
+recruit_character = CHI_Amokran_Asirt
+recruit_character = CHI_Iskaren_Asgwargaddar
+recruit_character = CHI_Amad_Tazawt
+recruit_character = CHI_Karimokranni_Tari
+recruit_character = CHI_Amokrane_Tifellas
+recruit_character = CHI_Iskariq_Nfour
+recruit_character = CHI_Amarim_Tigherwarwal
+recruit_character = CHI_Tahariq_Tagherwaru
+recruit_character = CHI_Yuba_Imzoufrart
+recruit_character = CHI_Yannissa_Tislit
+recruit_character = CHI_Amokran_Tazraru
+recruit_character = CHI_Massinissini_Tazraru
+recruit_character = CHI_Amar_Tamazemzouka
+recruit_character = CHI_Amoun_Takilt
+recruit_character = CHI_Taharen_Nfour
+recruit_character = CHI_Amoun_Tagziriremt
+recruit_character = CHI_Aselmaren_Taghislit
+recruit_character = CHI_Yane_Azegzirt
+recruit_character = CHI_Zirimokrane_Tamdayt
+recruit_character = CHI_Zirim_Tazdar
+recruit_character = CHI_Saidi_Tawla
+recruit_character = CHI_Iderfane_Taghalt
+recruit_character = CHI_Iderfax_Tamurt
+recruit_character = CHI_Massinis_Tafas
+recruit_character = CHI_Sifannis_Tazem
+recruit_character = CHI_Lyes_Tamdari
+recruit_character = CHI_Iskar_Tazrart
+recruit_character = CHI_Mimokranniss_Tazrawrint
+recruit_character = CHI_Massinissini_Tifellas
+recruit_character = CHI_Massa_Asit
+recruit_character = CHI_Meziane_Tajmi
+recruit_character = CHI_Amad_Tagziriremt
+recruit_character = CHI_Meziane_Amezi
+recruit_character = CHI_Karimokranni_Tazwal
+recruit_character = CHI_Zirim_Tazwas
+recruit_character = CHI_Amokrane_Tadin
+recruit_character = CHI_Iskariq_Tazenzalla
+recruit_character = CHI_Karimokrane_Tazmella
+recruit_character = CHI_Amoun_Tazegza
+recruit_character = CHI_Yannissa_Asirt
+recruit_character = CHI_Amad_Thanemt
+recruit_character = CHI_Mimokranniss_Amellalalt
+recruit_character = CHI_Amokran_Tafrawizi
+recruit_character = CHI_Zirim_Tifelt
+recruit_character = CHI_Amokran_Taghalt
+recruit_character = CHI_Taharen_Imzoufrart
+recruit_character = CHI_Iderfannissi_Tazmella
+recruit_character = CHI_Meziane_Tidrawen
+recruit_character = CHI_Amoun_Nfour
+recruit_character = CHI_Massinissini_Tazrous
+recruit_character = CHI_Mimokranniss_Tamunt
+recruit_character = CHI_Ziri_Tadin
+recruit_character = CHI_Iskar_Amdakli
+recruit_character = CHI_Kariq_Azenzagmmi
+recruit_character = CHI_Sifax_Tafrawizi
+recruit_character = CHI_Mezian_Aghbalal
+recruit_character = CHI_Sifannis_Tiwin
+recruit_character = CHI_Zirim_Tamurt
+recruit_character = CHI_Mimokranniss_Tidrart
+recruit_character = CHI_Mimokranniss_Tagzaw
+recruit_character = CHI_Iskariq_Awaska
+recruit_character = CHI_Amad_Imna
+recruit_character = CHI_Yane_Amellalut
+recruit_character = CHI_Mezian_Tiwizianem
+recruit_character = CHI_Zirim_Tidran
+recruit_character = CHI_Tahariq_Tart
+recruit_character = CHI_Iskariq_Tallay
+recruit_character = CHI_Tahariq_Asit
+recruit_character = CHI_Iderfane_Tazmeqrart
+recruit_character = CHI_Iderfane_Tafas
+recruit_character = CHI_Sifax_Asgwargaddar
+recruit_character = CHI_Amaren_Tazrou
+recruit_character = CHI_Karimokrane_Tawt
+recruit_character = CHI_Yuba_Amezian
+recruit_character = CHI_Amarim_Izult
+recruit_character = CHI_Sifannis_Tamazemzouka
+recruit_character = CHI_Lyes_Takwinirt
+recruit_character = CHI_Iskaren_Taghislit
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 189
+set_stability = 0.48
+set_war_support = 0.42
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1915.4.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 28
+	fascism = 35
+	communism = 27
+	neutrality = 10
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Kucan Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Kucan Fleet"
+			location = 12018
+			
+						ship = { name = "Voda" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Obina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Slak" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Umena Class" } }	}
+			ship = { name = "Kucan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Pradar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Teatar" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RUS version_name = "Kisa Class" } }	}
+			ship = { name = "Umena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Konzul" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Kultura" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Kultura 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Zvetlo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Kucanit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Pasticana" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Umena Class" } }	}
+			ship = { name = "Slica" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Pradar 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RUS version_name = "Obina Class" } }	}
+			ship = { name = "Kisa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RUS version_name = "Umena Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

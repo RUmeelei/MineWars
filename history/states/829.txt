@@ -1,0 +1,37 @@
+
+state={
+	id=829
+	name="STATE_829"
+	manpower = 0
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		12219 12220 12221 12222 12223 12224 12225 12226 12227 12228 12229 12230 12231 12232 12233 12234 12235 12236 12237 12238 12239 12240 12241 
+	}
+	local_supplies=0.0 
+}

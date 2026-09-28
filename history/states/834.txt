@@ -1,0 +1,40 @@
+
+state={
+	id=834
+	name="STATE_834"
+	manpower = 24316
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			12271 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		12264 12265 12266 12267 12268 12269 12270 12271 12272 
+	}
+	local_supplies=0.0 
+}

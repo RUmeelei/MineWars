@@ -1,0 +1,39 @@
+
+state={
+	id=1177
+	name="STATE_1177"
+	manpower = 223352
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15659 1}
+		victory_points = { 15660 1}
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		15658 15659 15660 
+	}
+	local_supplies=0.0 
+}

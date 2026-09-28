@@ -1,0 +1,44 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower = 2699420
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2060 6}
+		victory_points = { 2062 15}
+		victory_points = { 2066 15}
+		victory_points = { 2067 15}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 6
+			2060 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		2059 2060 2061 2062 2063 2064 2065 2066 2067 2068 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=901
+	name="STATE_901"
+	manpower = 2013761
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12904 5}
+		victory_points = { 12932 5}
+		victory_points = { 12937 10}
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		12894 12895 12896 12897 12898 12899 12900 12901 12902 12903 12904 12905 12906 12907 12908 12909 12910 12911 12912 12913 12914 12915 12916 12917 12918 12919 12920 12921 12922 12923 12924 12925 12926 12927 12928 12929 12930 12931 12932 12933 12934 12935 12936 12937 12938 12939 12940 12941 
+	}
+	local_supplies=0.0 
+}

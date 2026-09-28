@@ -1,0 +1,38 @@
+
+state={
+	id=1504
+	name="STATE_1504"
+	manpower = 464543
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 18898 5}
+		
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		18895 18896 18897 18898 18899 
+	}
+	local_supplies=0.0 
+}

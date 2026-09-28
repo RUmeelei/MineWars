@@ -1,0 +1,42 @@
+
+state={
+	id=1113
+	name="STATE_1113"
+	manpower = 574353
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15125 2}
+		victory_points = { 15132 3}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			15132 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		15125 15126 15127 15128 15129 15130 15131 15132 15133 15134 15135 15136 15137 15138 15139 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,74 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tuluk Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Tuluk Fleet"
+			location = 7295
+			
+						ship = { name = "Nutak" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ITA version_name = "Kuvikiq Class" } }	}
+			ship = { name = "Sura" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = ITA version_name = "Anuvuktakuaq Class" } }	}
+			ship = { name = "Kani" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ITA version_name = "Upik Class" } }	}
+			ship = { name = "Tingiqpaliak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kattak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Tuuggak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kani 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Spurjukokwim Class" } }	}
+			ship = { name = "Kiggiq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Sille" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Iliq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Nuni" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Spurjukokwim Class" } }	}
+			ship = { name = "Upik" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Kipaitnapak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kipaitnapak 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Kiggiq 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Imaq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Colvi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Tikutuk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Tuluk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Iliq 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Nunak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kuvikiq" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Spurjukokwim Class" } }	}
+			ship = { name = "Ituuq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kattak 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Amaluk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Nunapik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Nunak 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Spurjukokwim Class" } }	}
+			ship = { name = "Kaniq" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Kuvikiq 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Nunak 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Avalak" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Avalak 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Olikiggakutu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Amaluk 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kamaq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Avanuk" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Upik 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Kipaitnapak 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Nanik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Imaq 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Olikiggakutu 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kuvanurtaq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Nunaq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Aliqtukaktu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+			ship = { name = "Kuvanurtaq 2" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA version_name = "Spurjukokwim Class" } }	}
+			ship = { name = "Aliqtukaktu 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Olikiggakutu 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Oliya Class" } }	}
+			ship = { name = "Kattak 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ITA version_name = "Nunak Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

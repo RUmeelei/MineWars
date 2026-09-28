@@ -1,0 +1,37 @@
+
+state={
+	id=38
+	name="STATE_38"
+	manpower = 0
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NEU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NEU
+	}
+
+	provinces={
+		1144 1145 1146 1147 1148 1149 1150 1151 1152 1153 1154 1155 
+	}
+	local_supplies=0.0 
+}

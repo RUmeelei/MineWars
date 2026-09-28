@@ -1,0 +1,40 @@
+
+state={
+	id=1493
+	name="STATE_1493"
+	manpower = 0
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=21
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NEU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			18752 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = NEU
+	}
+
+	provinces={
+		18739 18740 18741 18742 18743 18744 18745 18746 18747 18748 18749 18750 18751 18752 18753 18754 18755 18756 18757 
+	}
+	local_supplies=0.0 
+}

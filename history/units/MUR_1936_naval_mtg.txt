@@ -1,0 +1,40 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Muro Fleet"			
+		naval_base = 0
+		task_force = {
+			name = "Muro Fleet"
+			location = 18070
+			
+						ship = { name = "Armattima" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armattima Class" } }	}
+			ship = { name = "Fumorto" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Armattima Class" } }	}
+			ship = { name = "Navene" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Colo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Colo Class" } }	}
+			ship = { name = "Combro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Comano" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Oasimanierca" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Sole" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Giortezionfo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Oasimanierca 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Castillo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Colo Class" } }	}
+			ship = { name = "Segio" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Colo Class" } }	}
+			ship = { name = "Castillo 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+			ship = { name = "Fuoco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AUS version_name = "Incudo Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

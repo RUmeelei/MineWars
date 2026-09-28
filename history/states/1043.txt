@@ -1,0 +1,39 @@
+
+state={
+	id=1043
+	name="STATE_1043"
+	manpower = 570281
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14468 3}
+		victory_points = { 14469 3}
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		14468 14469 14470 14471 
+	}
+	local_supplies=0.0 
+}

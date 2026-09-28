@@ -1,0 +1,40 @@
+
+state={
+	id=443
+	name="STATE_443"
+	manpower = 714174
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=11
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6784 3}
+		victory_points = { 6787 1}
+		victory_points = { 6789 1}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		6783 6784 6785 6786 6787 6788 6789 6790 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 2382
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=10
+		chromium=11
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=26
+	}
+
+	history={
+		
+		owner = SCO
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			731 = {
+				naval_base = 10
+			}
+			
+		}
+		add_core_of = SCO
+	}
+
+	provinces={
+		725 726 727 728 729 730 731 732 
+	}
+	local_supplies=0.0 
+}

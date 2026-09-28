@@ -1,0 +1,41 @@
+
+state={
+	id=506
+	name="STATE_506"
+	manpower = 604346
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7982 1}
+		victory_points = { 7983 1}
+		victory_points = { 7984 1}
+		victory_points = { 7985 1}
+		
+		owner = FIN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		7982 7983 7984 7985 7986 
+	}
+	local_supplies=0.0 
+}

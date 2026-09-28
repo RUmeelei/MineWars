@@ -1,0 +1,41 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 2256629
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=22
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12341 5}
+		victory_points = { 12344 5}
+		victory_points = { 12351 5}
+		victory_points = { 12357 5}
+		
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEM
+	}
+
+	provinces={
+		12327 12328 12329 12330 12331 12332 12333 12334 12335 12336 12337 12338 12339 12340 12341 12342 12343 12344 12345 12346 12347 12348 12349 12350 12351 12352 12353 12354 12355 12356 12357 12358 12359 12360 12361 12362 12363 
+	}
+	local_supplies=0.0 
+}

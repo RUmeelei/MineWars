@@ -1,0 +1,41 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 2836657
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1708 7}
+		victory_points = { 1710 14}
+		victory_points = { 1717 14}
+		victory_points = { 1721 3}
+		
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 6
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		1707 1708 1709 1710 1711 1712 1713 1714 1715 1716 1717 1718 1719 1720 1721 1722 1723 1724 
+	}
+	local_supplies=0.0 
+}

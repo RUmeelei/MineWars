@@ -1,0 +1,1083 @@
+characters = {
+	SAK_Agus_Peram={
+		name="Agus Peram"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAK_Lutra_Padih={
+		name="Lutra Padih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Lutra_Padih
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Surya_Laga={
+		name="Surya Laga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Surya_Laga
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Budi_Adih={
+		name="Budi Adih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Budi_Adih
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Arjuna_Tepi={
+		name="Arjuna Tepi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Arjuna_Tepi
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Bamban_Adih={
+		name="Bamban Adih"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Bamban_Adih
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Andi_Leman={
+		name="Andi Leman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Andi_Leman
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Fajario_Arwa={
+		name="Fajario Arwa"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Fajario_Arwa
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	SAK_Lutfi_Tepi={
+		name="Lutfi Tepi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Lutfi_Tepi
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SAK_Budi_Puruh={
+		name="Budi Puruh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Budi_Puruh
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SAK_Fajario_Peram={
+		name="Fajario Peram"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Fajario_Peram
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Bama_Temat={
+		name="Bama Temat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Bama_Temat
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SAK_Ramban_Lelang={
+		name="Ramban Lelang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Ramban_Lelang
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	SAK_Andi_Upatu={
+		name="Andi Upatu"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Andi_Upatu
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	SAK_Dewa_Tepisununung={
+		name="Dewa Tepisununung"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Dewa_Tepisununung
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SAK_Fajario_Adih={
+		name="Fajario Adih"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Fajario_Adih
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SAK_Suryan_Puruh={
+		name="Suryan Puruh"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Suryan_Puruh
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	SAK_Rambang_Terbakakil={
+		name="Rambang Terbakakil"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Rambang_Terbakakil
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SAK_Budi_Senyi={
+		name="Budi Senyi"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Budi_Senyi
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	SAK_Bama_Alama={
+		name="Bama Alama"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Bama_Alama
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	SAK_Hari_Padih={
+		name="Hari Padih"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Hari_Padih
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	SAK_Budi_Tepi={
+		name="Budi Tepi"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autokrator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAK_Ramban_Trapacarahla={
+		name="Ramban Trapacarahla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ramban_Trapacarahla
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Mario_Lelang={
+		name="Mario Lelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Mario_Lelang
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Hario_Laintawa={
+		name="Hario Laintawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Hario_Laintawa
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Fajar_Lelang={
+		name="Fajar Lelang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Fajar_Lelang
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Mari_Penya={
+		name="Mari Penya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Mari_Penya
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Suryang_Muda={
+		name="Suryang Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Suryang_Muda
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Sakti_Cerbat={
+		name="Sakti Cerbat"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Sakti_Cerbat
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Rama_Apinta={
+		name="Rama Apinta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Rama_Apinta
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Rama_Halamahan={
+		name="Rama Halamahan"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Rama_Halamahan
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Lutra_Terahasai={
+		name="Lutra Terahasai"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Lutra_Terahasai
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Putfi_Lelang={
+		name="Putfi Lelang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Putfi_Lelang
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	SAK_Hari_Terahasai={
+		name="Hari Terahasai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Hari_Terahasai
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	SAK_Surya_Pung={
+		name="Surya Pung"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Surya_Pung
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SAK_Ketutfi_Beruh={
+		name="Ketutfi Beruh"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Ketutfi_Beruh
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	SAK_Bama_Warnau={
+		name="Bama Warnau"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Bama_Warnau
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SAK_Ketut_Laintawa={
+		name="Ketut Laintawa"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Ketut_Laintawa
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	SAK_Bama_Warilau={
+		name="Bama Warilau"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Bama_Warilau
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	SAK_Fajario_Ibut={
+		name="Fajario Ibut"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Fajario_Ibut
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	SAK_Fajar_Petan={
+		name="Fajar Petan"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Fajar_Petan
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	SAK_Suryan_Lelang={
+		name="Suryan Lelang"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Suryan_Lelang
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SAK_Hari_Temimpang={
+		name="Hari Temimpang"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAK_Hari_Pung={
+		name="Hari Pung"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Hari_Pung
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Fajario_Petir={
+		name="Fajario Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Fajario_Petir
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Sakti_Pembang={
+		name="Sakti Pembang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Sakti_Pembang
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Mario_Pasjid={
+		name="Mario Pasjid"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Mario_Pasjid
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Ketutfi_Petir={
+		name="Ketutfi Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ketutfi_Petir
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Ketutfi_Temat={
+		name="Ketutfi Temat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ketutfi_Temat
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Suryan_Muda={
+		name="Suryan Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Suryan_Muda
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SAK_Suryang_Peram={
+		name="Suryang Peram"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Suryang_Peram
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SAK_Mario_Kera={
+		name="Mario Kera"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Mario_Kera
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	SAK_Putfi_Muda={
+		name="Putfi Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Putfi_Muda
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	SAK_Rambang_Tombat={
+		name="Rambang Tombat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Rambang_Tombat
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SAK_Andi_Toko={
+		name="Andi Toko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Andi_Toko
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SAK_Surya_Ilmurumi={
+		name="Surya Ilmurumi"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Surya_Ilmurumi
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SAK_Mario_Pung={
+		name="Mario Pung"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Mario_Pung
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	SAK_Surya_Bulang={
+		name="Surya Bulang"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Surya_Bulang
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SAK_Suryang_Petan={
+		name="Suryang Petan"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Suryang_Petan
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SAK_Bamban_Pasjid={
+		name="Bamban Pasjid"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Bamban_Pasjid
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	SAK_Ramban_Huja={
+		name="Ramban Huja"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Ramban_Huja
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	SAK_Ketutra_Bayahu={
+		name="Ketutra Bayahu"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Ketutra_Bayahu
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SAK_Rama_Jiwo={
+		name="Rama Jiwo"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Rama_Jiwo
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	SAK_Hario_Anah={
+		name="Hario Anah"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAK_Bama_Senyi={
+		name="Bama Senyi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Bama_Senyi
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	SAK_Ketutra_Tangai={
+		name="Ketutra Tangai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ketutra_Tangai
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	SAK_Ramban_Padanpulinta={
+		name="Ramban Padanpulinta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ramban_Padanpulinta
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Ketutra_Ayawan={
+		name="Ketutra Ayawan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Ketutra_Ayawan
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Rizal_Upalang={
+		name="Rizal Upalang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Rizal_Upalang
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Fajar_Toko={
+		name="Fajar Toko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SWI_Fajar_Toko
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	SAK_Ketutfi_Kuil={
+		name="Ketutfi Kuil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Ketutfi_Kuil
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SAK_Rizal_Pung={
+		name="Rizal Pung"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Rizal_Pung
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SAK_Bama_Padanpulinta={
+		name="Bama Padanpulinta"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Bama_Padanpulinta
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	SAK_Fajario_Arombak={
+		name="Fajario Arombak"
+
+		advisor={
+			slot = army_chief
+			idea_token = SWI_Fajario_Arombak
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SAK_Suryang_Tertan={
+		name="Suryang Tertan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Suryang_Tertan
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SAK_Rama_Jemi={
+		name="Rama Jemi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SWI_Rama_Jemi
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	SAK_Ketutra_Beruh={
+		name="Ketutra Beruh"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Ketutra_Beruh
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	SAK_Mario_Adih={
+		name="Mario Adih"
+
+		advisor={
+			slot = air_chief
+			idea_token = SWI_Mario_Adih
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SAK_Ketutra_Tulaja={
+		name="Ketutra Tulaja"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Ketutra_Tulaja
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	SAK_Mari_Mulan={
+		name="Mari Mulan"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Mari_Mulan
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	SAK_Andi_Kera={
+		name="Andi Kera"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Andi_Kera
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SAK_Ramban_Cerbat={
+		name="Ramban Cerbat"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Ramban_Cerbat
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	SAK_Lutra_Cing={
+		name="Lutra Cing"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Lutra_Cing
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	SAK_Sakti_Kakit={
+		name="Sakti Kakit"
+
+		advisor={
+			slot = high_command
+			idea_token = SWI_Sakti_Kakit
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	SAK_Ramban_Saki={
+		name="Ramban Saki"
+
+		advisor={
+			slot = theorist
+			idea_token = SWI_Ramban_Saki
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SAK_Lutra_Huja={
+		name="Lutra Huja"
+
+		advisor={
+			slot = theorist
+			idea_token = SWI_Lutra_Huja
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SAK_Dewa_Damandalanan={
+		name="Dewa Damandalanan"
+
+		advisor={
+			slot = theorist
+			idea_token = SWI_Dewa_Damandalanan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

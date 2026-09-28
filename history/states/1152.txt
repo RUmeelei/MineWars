@@ -1,0 +1,38 @@
+
+state={
+	id=1152
+	name="STATE_1152"
+	manpower = 135454
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15503 1}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		15496 15497 15498 15499 15500 15501 15502 15503 15504 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	GLA_Steusz_Knja={
+		name="Steusz Knja"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLA_Aleg_Grmlja={
+		name="Aleg Grmlja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Aleg_Grmlja
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Kazimitrilos_Glat={
+		name="Kazimitrilos Glat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Kazimitrilos_Glat
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Gori_Sremlja={
+		name="Gori Sremlja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Gori_Sremlja
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Braj_Masinatrad={
+		name="Braj Masinatrad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Braj_Masinatrad
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Yuris_Laga={
+		name="Yuris Laga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Yuris_Laga
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Ilya_Kapijava={
+		name="Ilya Kapijava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Ilya_Kapijava
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Alek_Knjivo={
+		name="Alek Knjivo"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Alek_Knjivo
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GLA_Radoslavelim_Vrlik={
+		name="Radoslavelim Vrlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Radoslavelim_Vrlik
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GLA_Bran_Plodnos={
+		name="Bran Plodnos"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Bran_Plodnos
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	GLA_Borislav_Hlemir={
+		name="Borislav Hlemir"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Borislav_Hlemir
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	GLA_Slavko_Vitezde={
+		name="Slavko Vitezde"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Slavko_Vitezde
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GLA_Vlav_Ljubarst={
+		name="Vlav Ljubarst"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Vlav_Ljubarst
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	GLA_Bragomas_Jezduh={
+		name="Bragomas Jezduh"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Bragomas_Jezduh
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	GLA_Mateusz_Glaver={
+		name="Mateusz Glaver"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Mateusz_Glaver
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	GLA_Matefanislav_Knjivo={
+		name="Matefanislav Knjivo"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Matefanislav_Knjivo
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	GLA_Ilya_Hravezaverad={
+		name="Ilya Hravezaverad"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Ilya_Hravezaverad
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GLA_Kazimiroslav_Knja={
+		name="Kazimiroslav Knja"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Kazimiroslav_Knja
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	GLA_Vlavkolav_Pesecno={
+		name="Vlavkolav Pesecno"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Vlavkolav_Pesecno
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	GLA_Tomas_Prefekt={
+		name="Tomas Prefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Tomas_Prefekt
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	GLA_Vlav_Groja={
+		name="Vlav Groja"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Vlav_Groja
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	GLA_Yuris_Poslje={
+		name="Yuris Poslje"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLA_Bragomas_Naroj={
+		name="Bragomas Naroj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Bragomas_Naroj
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Bogdanko_Herodnikar={
+		name="Bogdanko Herodnikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Bogdanko_Herodnikar
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Yuran_Imena={
+		name="Yuran Imena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Yuran_Imena
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Dusz_Slinja={
+		name="Dusz Slinja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Dusz_Slinja
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Yuris_Polja={
+		name="Yuris Polja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Yuris_Polja
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Yuris_Tradzbica={
+		name="Yuris Tradzbica"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Yuris_Tradzbica
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Simir_Kulturad={
+		name="Simir Kulturad"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Simir_Kulturad
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	GLA_Kazimiroslav_Muzika={
+		name="Kazimiroslav Muzika"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Kazimiroslav_Muzika
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	GLA_Radeneksei_Postirom={
+		name="Radeneksei Postirom"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Radeneksei_Postirom
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	GLA_Matej_Jezduh={
+		name="Matej Jezduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Matej_Jezduh
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GLA_Rado_Laga={
+		name="Rado Laga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Rado_Laga
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	GLA_Juri_Filasina={
+		name="Juri Filasina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Juri_Filasina
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GLA_Miloslav_Pasina={
+		name="Miloslav Pasina"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Miloslav_Pasina
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	GLA_Bogdan_Bogina={
+		name="Bogdan Bogina"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Bogdan_Bogina
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	GLA_Lubos_Scen={
+		name="Lubos Scen"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Lubos_Scen
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GLA_Andrej_Imena={
+		name="Andrej Imena"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Andrej_Imena
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	GLA_Kirosladek_Vitezde={
+		name="Kirosladek Vitezde"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Kirosladek_Vitezde
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GLA_Goran_Imen={
+		name="Goran Imen"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Goran_Imen
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	GLA_Kirosladek_Krada={
+		name="Kirosladek Krada"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Kirosladek_Krada
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	GLA_Milav_Filo={
+		name="Milav Filo"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Milav_Filo
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GLA_Simitan_Kucaj={
+		name="Simitan Kucaj"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLA_Kazimitar_Vitak={
+		name="Kazimitar Vitak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Kazimitar_Vitak
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Juris_Ljubarst={
+		name="Juris Ljubarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Juris_Ljubarst
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Matefanislav_Ljubarst={
+		name="Matefanislav Ljubarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Matefanislav_Ljubarst
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Niktoragomir_Glak={
+		name="Niktoragomir Glak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Niktoragomir_Glak
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Gori_Svemet={
+		name="Gori Svemet"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Gori_Svemet
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Vladovan_Pesecno={
+		name="Vladovan Pesecno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Vladovan_Pesecno
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Vlavkolav_Vitak={
+		name="Vlavkolav Vitak"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Vlavkolav_Vitak
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GLA_Lubomirosh_Doba={
+		name="Lubomirosh Doba"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Lubomirosh_Doba
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	GLA_Lubomas_Mosof={
+		name="Lubomas Mosof"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Lubomas_Mosof
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GLA_Kazimitrilos_Bogina={
+		name="Kazimitrilos Bogina"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Kazimitrilos_Bogina
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GLA_Dusz_Naroj={
+		name="Dusz Naroj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Dusz_Naroj
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GLA_Branis_Krada={
+		name="Branis Krada"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Branis_Krada
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GLA_Vladimitarko_Oblik={
+		name="Vladimitarko Oblik"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Vladimitarko_Oblik
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	GLA_Lubos_Riba={
+		name="Lubos Riba"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Lubos_Riba
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	GLA_Dusan_Obica={
+		name="Dusan Obica"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Dusan_Obica
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	GLA_Kazimiroslav_Jezduh={
+		name="Kazimiroslav Jezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Kazimiroslav_Jezduh
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	GLA_Bogdanko_Vazavino={
+		name="Bogdanko Vazavino"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Bogdanko_Vazavino
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GLA_Steusz_Tradzbica={
+		name="Steusz Tradzbica"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Steusz_Tradzbica
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	GLA_Tomitris_Velodnika={
+		name="Tomitris Velodnika"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Tomitris_Velodnika
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	GLA_Mateusz_Carst={
+		name="Mateusz Carst"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Mateusz_Carst
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	GLA_Kazimitrilos_Tradzbica={
+		name="Kazimitrilos Tradzbica"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GLA_Lubomirosh_Krada={
+		name="Lubomirosh Krada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Lubomirosh_Krada
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Kazimitar_Krada={
+		name="Kazimitar Krada"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Kazimitar_Krada
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	GLA_Simir_Slika={
+		name="Simir Slika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Simir_Slika
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Juris_Doba={
+		name="Juris Doba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Juris_Doba
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Rado_Imen={
+		name="Rado Imen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Rado_Imen
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	GLA_Vlavkolav_Puto={
+		name="Vlavkolav Puto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_Vlavkolav_Puto
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	GLA_Bogdanko_Pesecno={
+		name="Bogdanko Pesecno"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Bogdanko_Pesecno
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GLA_Sergei_Tradzbica={
+		name="Sergei Tradzbica"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Sergei_Tradzbica
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	GLA_Yuran_Carst={
+		name="Yuran Carst"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Yuran_Carst
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	GLA_Rado_Groja={
+		name="Rado Groja"
+
+		advisor={
+			slot = army_chief
+			idea_token = YEM_Rado_Groja
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	GLA_Milav_Plasinjiga={
+		name="Milav Plasinjiga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Milav_Plasinjiga
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	GLA_Mateusan_Kovac={
+		name="Mateusan Kovac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YEM_Mateusan_Kovac
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GLA_Yuran_Ljubarst={
+		name="Yuran Ljubarst"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Yuran_Ljubarst
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	GLA_Yuris_Doba={
+		name="Yuris Doba"
+
+		advisor={
+			slot = air_chief
+			idea_token = YEM_Yuris_Doba
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GLA_Kiroslav_Mesec={
+		name="Kiroslav Mesec"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Kiroslav_Mesec
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	GLA_Bran_Kapijava={
+		name="Bran Kapijava"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Bran_Kapijava
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	GLA_Slavko_Plasinjiga={
+		name="Slavko Plasinjiga"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Slavko_Plasinjiga
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GLA_Vladimitarko_Imena={
+		name="Vladimitarko Imena"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Vladimitarko_Imena
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GLA_Lubomas_Imen={
+		name="Lubomas Imen"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Lubomas_Imen
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	GLA_Ivan_Smrt={
+		name="Ivan Smrt"
+
+		advisor={
+			slot = high_command
+			idea_token = YEM_Ivan_Smrt
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GLA_Vladimitarko_Delost={
+		name="Vladimitarko Delost"
+
+		advisor={
+			slot = theorist
+			idea_token = YEM_Vladimitarko_Delost
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GLA_Ivan_Vitezde={
+		name="Ivan Vitezde"
+
+		advisor={
+			slot = theorist
+			idea_token = YEM_Ivan_Vitezde
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GLA_Steusz_Kucan={
+		name="Steusz Kucan"
+
+		advisor={
+			slot = theorist
+			idea_token = YEM_Steusz_Kucan
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

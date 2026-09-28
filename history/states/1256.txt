@@ -1,0 +1,40 @@
+
+state={
+	id=1256
+	name="STATE_1256"
+	manpower = 554040
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16553 1}
+		victory_points = { 16555 3}
+		victory_points = { 16556 1}
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		16552 16553 16554 16555 16556 16557 
+	}
+	local_supplies=0.0 
+}

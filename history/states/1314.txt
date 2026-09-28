@@ -1,0 +1,40 @@
+
+state={
+	id=1314
+	name="STATE_1314"
+	manpower = 2259117
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17002 8}
+		victory_points = { 17018 8}
+		victory_points = { 17019 16}
+		
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 3
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		17002 17003 17004 17005 17006 17007 17008 17009 17010 17011 17012 17013 17014 17015 17016 17017 17018 17019 17020 17021 17022 
+	}
+	local_supplies=0.0 
+}

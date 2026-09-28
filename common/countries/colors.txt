@@ -1,0 +1,83 @@
+#reload countrycolors
+
+ADA = {
+	color = rgb { 37 186 7 }
+	color_ui = rgb { 37 186 7 }
+}
+GLA = {
+	color = rgb { 145 53 28 }
+	color_ui = rgb { 145 53 28 }
+}
+KUC = {
+	color = rgb { 76 15 195 }
+	color_ui = rgb { 76 15 195 }
+}
+MUR = {
+	color = rgb { 82 85 43 }
+	color_ui = rgb { 82 85 43 }
+}
+MUZ = {
+	color = rgb { 24 125 128 }
+	color_ui = rgb { 24 125 128 }
+}
+SAK = {
+	color = rgb { 73 72 13 }
+	color_ui = rgb { 73 72 13 }
+}
+SUI = {
+	color = rgb { 97 47 98 }
+	color_ui = rgb { 97 47 98 }
+}
+TAG = {
+	color = rgb { 76 161 138 }
+	color_ui = rgb { 76 161 138 }
+}
+TUL = {
+	color = rgb { 73 208 48 }
+	color_ui = rgb { 73 208 48 }
+}
+TYG = {
+	color = rgb { 156 178 24 }
+	color_ui = rgb { 156 178 24 }
+}
+
+RUS = {
+	color = rgb { 182 255 0 }
+	color_ui = rgb { 182 255 0 }
+}
+FIN = {
+	color = rgb { 87 0 120 }
+	color_ui = rgb { 87 0 120 }
+}
+YEM = {
+	color = rgb { 255 233 127 }
+	color_ui = rgb { 255 233 127 }
+}
+SWI = {
+	color = rgb { 91 127 0 }
+	color_ui = rgb { 91 127 0 }
+}
+AUS = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+CHI = {
+	color = rgb { 0 74 127 }
+	color_ui = rgb { 0 74 127 }
+}
+ITA = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+ENG = {
+	color = rgb { 187 0 0 }
+	color_ui = rgb { 187 0 0 }
+}
+SCO = {
+	color = rgb { 255 216 0 }
+	color_ui = rgb { 255 216 0 }
+}
+NEU = {
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
+}

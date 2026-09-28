@@ -1,0 +1,201 @@
+###############################
+######	    Big Ben      ######
+###############################
+
+entity = {
+	name = "building_landmark_big_ben"
+	pdxmesh = "landmark_big_ben_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+######	   Colosseum     ######
+###############################
+
+entity = {
+	name = "building_landmark_colosseum"
+	pdxmesh = "landmark_colosseum_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+######  Cristo Redentor  ######
+###############################
+
+entity = {
+	name = "building_landmark_cristo_redentor"
+	pdxmesh = "landmark_cristo_redentor_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+######    Eiffel Tower   ######
+###############################
+
+entity = {
+	name = "building_landmark_eiffel_tower"
+	pdxmesh = "landmark_eiffel_tower_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+###### Statue of Liberty ######
+###############################
+
+entity = {
+	name = "building_landmark_statue_of_liberty"
+	pdxmesh = "landmark_statue_of_liberty_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+######	    Kremlin      ######
+###############################
+
+entity = {
+	name = "building_landmark_kremlin"
+	pdxmesh = "landmark_kremlin_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+
+###############################
+######	Hofburg Palace   ######
+###############################
+
+entity = {
+	name = "building_landmark_hofburg_palace"
+	pdxmesh = "landmark_hofburg_palace_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.2
+
+}
+
+#################################
+######	Berlin Reichstag   ######
+#################################
+
+entity = {
+	name = "building_landmark_berlin_reichstag"
+	pdxmesh = "landmark_reichstag_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.2
+
+}
+
+###############################
+#	 Tokyo Imperial Palace 	  #
+###############################
+
+
+entity = {
+	name = "building_landmark_tokyo_imperial_palace"
+	pdxmesh = "landmark_tokyo_imperial_palace_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.0 animation_speed = 0.8 looping = yes }
+
+	scale = 0.3
+
+}
+
+###############################
+#####    Forbidden City   #####
+###############################
+
+entity = {
+	name = "building_landmark_forbidden_city"
+	pdxmesh = "landmark_forbidden_city_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.2
+
+}
+
+###############################
+######    Taj Mahal      ######
+###############################
+
+entity = {
+	name = "building_landmark_taj_mahal"
+	pdxmesh = "landmark_taj_mahal_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.3
+
+}
+
+###############################
+######  Sadabad Complex  ######
+###############################
+
+entity = {
+	name = "building_landmark_sadabad_complex"
+	pdxmesh = "landmark_sadabad_complex_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.25
+
+}
+
+###############################
+######    Hagia Sophia   ######
+###############################
+
+entity = {
+	name = "building_landmark_hagia_sophia"
+	pdxmesh = "landmark_hagia_sophia_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"				animation = "idle"       		animation_blend_time = 0.3 animation_speed = 1.0 looping = no }
+
+	scale = 0.2
+
+}

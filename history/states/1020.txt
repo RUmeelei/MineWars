@@ -1,0 +1,41 @@
+
+state={
+	id=1020
+	name="STATE_1020"
+	manpower = 452994
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14119 1}
+		victory_points = { 14120 1}
+		victory_points = { 14122 1}
+		victory_points = { 14126 1}
+		
+		owner = AUS
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		14118 14119 14120 14121 14122 14123 14124 14125 14126 14127 
+	}
+	local_supplies=0.0 
+}

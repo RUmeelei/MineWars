@@ -1,0 +1,167 @@
+strategic_region={
+	id=193
+	name="STRATEGICREGION_193"
+	provinces={
+		7724 7725 7726 7727 7728 7729 7730 8126 8127 8128 8129 8130 8131 8132 8453 8454 8455 8456 8457 8458 8459 8460 8461 8462 9254 9255 9256 9257 9258 9259 9260 9261 9262 9265 9266 9267 9268 9269 9270 9271 9272 9273 9274 9275 9276 9277 9278 9279 9280 9281 9282 9283 9284 9851 9852 9853 9854 9855 9856 9857 9858 9859 9866 9867 9868 9869 9870 9871 9872 9873 9874 9875 9876 9877 10148 10149 10150 10151 10152 10153 10154 10155 10156 10157 10158 10159 10480 10481 10482 10483 10484 10485 10650 10651 10652 11117 11118 11119 11120 11196 11197 11198 11199 11200 11201 11202 11203 11204 11299 11300 11301 11302 11303 11468 11469 11470 11471 11472 11473 11900 11901 12654 12655 12656 12657 
+	}
+	
+	weather={
+		period={
+			between={ 0.0 30.0 }
+			temperature={ -20.0 -10.0 }
+			no_phenomenon=0.462079
+			rain_light=0.298845
+			rain_heavy=0.000000
+			snow=0.119538
+			blizzard=0.119538
+			arctic_water=0.000
+			mud=0.029884
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.1 27.1 }
+			temperature={ -20.0 -10.0 }
+			no_phenomenon=0.462079
+			rain_light=0.298845
+			rain_heavy=0.000000
+			snow=0.119538
+			blizzard=0.119538
+			arctic_water=0.000
+			mud=0.029884
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.2 30.2 }
+			temperature={ -20.0 -10.0 }
+			no_phenomenon=0.462970
+			rain_light=0.298400
+			rain_heavy=0.000445
+			snow=0.119538
+			blizzard=0.118647
+			arctic_water=0.000
+			mud=0.029929
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.3 29.3 }
+			temperature={ -19.0 -8.00 }
+			no_phenomenon=0.472600
+			rain_light=0.293585
+			rain_heavy=0.005260
+			snow=0.119538
+			blizzard=0.109017
+			arctic_water=0.000
+			mud=0.030411
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.4 30.4 }
+			temperature={ -14.0 -4.00 }
+			no_phenomenon=0.513373
+			rain_light=0.273198
+			rain_heavy=0.025647
+			snow=0.119538
+			blizzard=0.068244
+			arctic_water=0.000
+			mud=0.032449
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.5 29.5 }
+			temperature={ -8.00 2.000 }
+			no_phenomenon=0.606314
+			rain_light=0.247844
+			rain_heavy=0.051001
+			snow=0.077305
+			blizzard=0.017536
+			arctic_water=0.000
+			mud=0.034985
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.6 30.6 }
+			temperature={ -2.00 9.000 }
+			no_phenomenon=0.678832
+			rain_light=0.220353
+			rain_heavy=0.078492
+			snow=0.022323
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.037734
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.7 30.7 }
+			temperature={ -8.00 2.000 }
+			no_phenomenon=0.606314
+			rain_light=0.247844
+			rain_heavy=0.051001
+			snow=0.077305
+			blizzard=0.017536
+			arctic_water=0.000
+			mud=0.034985
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.8 29.8 }
+			temperature={ -14.0 -4.00 }
+			no_phenomenon=0.513373
+			rain_light=0.273198
+			rain_heavy=0.025647
+			snow=0.119538
+			blizzard=0.068244
+			arctic_water=0.000
+			mud=0.032449
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.9 30.9 }
+			temperature={ -19.0 -8.00 }
+			no_phenomenon=0.472600
+			rain_light=0.293585
+			rain_heavy=0.005260
+			snow=0.119538
+			blizzard=0.109017
+			arctic_water=0.000
+			mud=0.030411
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.10 29.10 }
+			temperature={ -20.0 -10.0 }
+			no_phenomenon=0.462970
+			rain_light=0.298400
+			rain_heavy=0.000445
+			snow=0.119538
+			blizzard=0.118647
+			arctic_water=0.000
+			mud=0.029929
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.11 30.11 }
+			temperature={ -20.0 -10.0 }
+			no_phenomenon=0.462079
+			rain_light=0.298845
+			rain_heavy=0.000000
+			snow=0.119538
+			blizzard=0.119538
+			arctic_water=0.000
+			mud=0.029884
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		
+	}
+}
